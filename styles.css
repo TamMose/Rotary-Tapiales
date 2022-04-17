@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    max-width: 100%;
+
+}
+
+/******************************************** INICIO LINK INDEX *****************************************************/
+/*  BODY */
+body {
+    background: #9cabb1;
+}
+
+/*  HEADER NAV */
+
+.divHeaderContainer {
+    background: #ffffff;
+    width: 100%;
+    margin: 0%;
+
+    /* position: fixed; */
+}
+
+div.container {
+    padding: 0%;
+    width: 90%;
+
+
+}
+
+.logoRotary {
+    border-radius: 1rem;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    color: #044383;
+}
+
+.ulHeader {
+    width: 33rem;
+    justify-content: space-around;
+}
+
+li:hover {
+    font-weight: 600;
+}
+
+li.active {
+    font-weight: 600;
+}
+
+.btnP {
+    background: #FFFFFF;
+    width: 140px;
+    padding: 0.4rem;
+    margin: 0 0 0 20px;
+    border-radius: 50px;
+    border: solid 1.5px #044383;
+    color: #044383;
+}
+
+.btnP:hover {
+    background: #044383;
+    color: #ffffff;
+    /*transition: all 1s;*/
+}
+
+.btnS {
+    background: #fcb316;
+    width: 140px;
+    padding: 0.4rem;
+    margin: 0 0 0 10px;
+    border-radius: 50px;
+    border: solid 2px #fcb316;
+    color: #044383;
+}
+
+.btnS:hover {
+    background: none;
+    border: solid 2px #fcb316;
+    color: #fcb316;
+    /*transition: all 1s;*/
+}
+
+/* FIN HEADER */
+/*  INICIO MAIN */
+main {
+    width: 100%;
+    margin: auto;
+}
+
+/*INICIO SECTIONS CAROUSEL */
+.sectionCarousel {
+
+    width: 50rem 100rem;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.textoCarousel {
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    /* border: #cfd4d6 solid; */
+    width: 45rem;
+    height: 25rem;
+}
+
+.textoCarousel h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 2rem;
+}
+
+.textoCarousel p {
+    color: #f7a81b;
+    font-size: large;
+    width: 30rem;
+    margin: 2rem auto 2rem auto;
+}
+
+.textoCarousel button {
+    background: #337ab7;
+    width: 7rem;
+    margin: 2rem 0 0 8rem;
+    border-radius: 2px;
+    transition: 2s;
+}
+
+.textoCarousel button:hover {
+    background: #019fcb;
+    border-radius: 2px;
+    transition: 2s;
+}
+
+/*FIN SECTIONS CAROUSEL */
+/*INICIO SECTION HISTORY AND CAUSE */
+.projectAndCause {
+    width: 100%;
+}
+
+.projectAndCauseContainer {
+    width: 60rem;
+    margin: 7rem auto;
+    display: flex;
+}
+
+@media only screen and (max-width: 1080px) {
+    .projectAndCauseContainer {
+        flex-wrap: wrap;
+    }
+}
+
+.projectAndCauseImgContainer {
+    border: solid;
+}
+
+.projectAndCauseImgContainer img {
+    height: 100%;
+}
+
+.projectAndCauseTxtContainer {
+    margin: 1rem 3rem;
+}
+
+.card-title {
+    color: red;
+}
+
+.card-text {
+    margin: 2rem 0;
+}
+
+/*FIN SECTION HISTORY AND CAUSE */
+/*INICIO SECTION THEMISSION */
+.theMission {
+    margin: 10rem 0;
+}
+
+.theMissionH2Container {
+    text-align: center;
+    margin: auto;
+
+}
+
+/*FIN SECTION THEMISSION */
+/*INICIO SECTION THREECARD */
+.threeCard {
+    display: flex;
+}
+
+.threeCardContainer {
+    width: 30%;
+    margin: auto;
+    background: gray;
+}
+
+.threeCardContainer2 {
+    padding: 1rem;
+    margin: auto;
+    height: 40rem;
+}
+
+.threeCardContainer2Txt,
+h4 {
+    margin: 2rem 0;
+}
+
+.threeCardContainer2TxtP {
+    margin: 2rem 0;
+}
+
+/*FIN SECTION THREECARD */
+/* FIN MAIN */
+
+/*---------------------------FOOTER ----------------------------------*/
+
+
+.footerIndex {
+    background: #044383;
+    padding: 10rem;
+    margin: 10rem 0 0 0;
+}
+
+.footerIndexContainer1 {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.footerIndexContainer1,
+ul {
+    color: #ffffff;
+    font-size: larger;
+}
+
+.footerLista {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.botonFooter {
+    background: #fcb316;
+    width: 140px;
+    padding: 0.4rem;
+    margin: 0 0 0 10px;
+    border-radius: 50px;
+    border: solid 2px #fcb316;
+    color: #044383;
+}
+
+.botonFooter:hover {
+    background: none;
+    border: solid 2px #fcb316;
+    color: #fcb316;
+}
+
+/* FIN FOOTER */
+/*  FIN BODY */
+/******************************************** FIN LINK SOBRE INDEX *****************************************************/
+/******************************************** INICIO LINK SOBRE NOSOTROS *****************************************************/
+
+.carouselImgContainer img {
+    width: 100%;
+    height: 36rem;
+    /* background-image: url(../image/Fondo-Azul-Clean.jpg); */
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.sectionHistoryAbautUs {
+    margin: 5rem 0;
+}
+
+.historyContainer h2 {
+    height: 86px;
+    width: 67rem;
+}
+
+.historyContainer p {
+    width: 67rem;
+    height: 15rem;
+}
+
+.rotaryTapialesContainer h2 {
+    height: 5.3rem;
+    width: 67rem;
+}
+
+.rotaryTapialesContainer p {
+    /* height: 10rem; */
+    width: 67rem;
+}
+
+.sectionInfoContainer h2 {
+    margin: 0 0 3rem 0;
+}
+
+.sectionInfoContainer p {
+    width: 67rem;
+}
+
+/* .sectionInfoContainer2 {
+    border: solid;
+} */
+.sectionInfoContainer2 p {
+    width: 67rem;
+}
+
+.sectionInformationImgContainer {
+    display: flex;
+    margin: 7rem 0 0 0;
+}
+
+.sectionInformationImgContainer .ImgContainer1 img {
+    height: 100%;
+    width: 100rem;
+}
+
+.sectionInformationImgContainer .ImgABContainer {
+    width: 80rem;
+    margin: 0 0 0 1rem;
+}
+
+.sectionInformationImgContainer .ImgABContainer .ImgAContainer {
+    border: black;
+    margin: 0 0 1rem 0;
+}
+
+/******************************************** FIN LINK SOBRE NOSOTROS *****************************************************/
+
+/******************************************** INICIO LINK SOBRE NOSOTROS *****************************************************/
+/******************************************** FIN LINK PROYECTOS Y CAUSAS *****************************************************/
+
+
+/******************************************** INICIO LINK CONTACTO *****************************************************/
+
+.formContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 5rem auto;
+    padding: 2rem;
+    border: solid #cfd4d6;
+    border-radius: 1rem;
+}
+
+.contactContainer {
+    width: 304px;
+    padding: 2rem;
+}
+
+.contactContainer h2 {
+    margin: 0 0 2rem 0;
+}
+
+.contactContainer p {
+    font-size: 1rem;
+    margin: auto;
+}
+
+.contactNetContainer {
+    margin: 1rem 0;
+}
+
+.formContainer form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    width: 45rem;
+    margin: auto;
+}
+
+.formName {
+    width: 20rem;
+    margin: auto;
+}
+
+.formPhone {
+    width: 20rem;
+    margin: auto;
+}
+
+.formEmail {
+    width: 40.3rem;
+    margin: 1rem auto;
+}
+
+:hover.formName,
+:hover.formEmail,
+:hover.formPhone {
+    background: #b5e1f3;
+}
+
+.message {
+    width: 40.3rem;
+    padding: 3rem;
+    margin: 1rem auto;
+}
+
+:hover.message {
+    background: #b5e1f3;
+}
+
+form .button {
+    height: 60px;
+    width: 176px;
+    left: 647px;
+    top: 1674px;
+    border-radius: 81px;
+    margin: auto;
+}
+
+form :hover.button {
+    transition: all 1s;
+    background: #b5e1f3;
+}
+
+.sectionMap {
+    width: 100%;
+}
+
+.mapsContainer {
+    width: 100%;
+}
+
+.maps {
+    width: 100%;
+    height: 532px;
+    margin: 0;
+}
+
+/* FIN FORMULARIO CONTACTO */
+
+
+/******************************************** FIN LINK CONTACTO *****************************************************/
