@@ -1,3 +1,15 @@
+/*
+---Body
+---Header (listo)
+---Footer
+---Seccion Index
+---Seccion Sobre Nosotros
+---Seccion Proyectos Y Causas
+---Contacto
+
+*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +19,20 @@
 
 }
 
-/******************************************** INICIO LINK INDEX *****************************************************/
-/*  BODY */
+/*---------------------------BODY----------------------------------*/
+
+
+
 body {
     background: #9cabb1;
 }
 
-/*  HEADER NAV */
+
+
+
+
+/*---------------------------HEADER ----------------------------------*/
+
 
 .divHeaderContainer {
     background: #ffffff;
@@ -85,7 +104,91 @@ li.active {
 }
 
 /* FIN HEADER */
-/*  INICIO MAIN */
+
+
+
+
+
+
+/*---------------------------FOOTER ----------------------------------*/
+
+
+footer {
+    background: #044383;
+    width: 100%;
+    padding: 10rem ;
+    margin: 10rem 0 0 0;
+
+}
+
+
+.footerContainer1 {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.footerContainer1 .cantainerLista{
+    width: 50%;
+}
+.footerContainer1 .cantainerLogos{
+    width: 40%;
+}
+
+/*---------------estilos para lista del footer -----------*/
+
+footer ul{
+    width: 100%;
+    
+}
+
+footer li {
+    border-bottom: 2px solid #ffffff;
+    list-style: none; 
+}
+
+footer li a{
+    color:#ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    cursor: pointer;
+    color: #fcb316;
+    font-weight: 400;
+}
+
+
+
+
+.botonFooter {
+    background: #fcb316;
+    width: 140px;
+    padding: 0.4rem;
+    margin: 0 0 0 10px;
+    border-radius: 50px;
+    border: solid 2px #fcb316;
+    color: #044383;
+}
+
+.botonFooter:hover {
+    background: none;
+    border: solid 2px #fcb316;
+    color: #fcb316;
+}
+
+/* FIN FOOTER */
+
+
+
+
+
+/*---------------------------SECCION INICIO ----------------------------------*/
+
 main {
     width: 100%;
     margin: auto;
@@ -94,7 +197,8 @@ main {
 /*INICIO SECTIONS CAROUSEL */
 .sectionCarousel {
 
-    width: 50rem 100rem;
+    width: 100%;
+    height: 845px;
     position: relative;
     overflow: hidden;
     margin: 0px;
@@ -216,56 +320,13 @@ h4 {
 /*FIN SECTION THREECARD */
 /* FIN MAIN */
 
-/*---------------------------FOOTER ----------------------------------*/
-
-
-.footerIndex {
-    background: #044383;
-    padding: 10rem;
-    margin: 10rem 0 0 0;
-}
-
-.footerIndexContainer1 {
-    display: flex;
-    padding: 1rem;
-    justify-content: space-around;
-}
-
-.footerIndexContainer1,
-ul {
-    color: #ffffff;
-    font-size: larger;
-}
-
-.footerLista {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.botonFooter {
-    background: #fcb316;
-    width: 140px;
-    padding: 0.4rem;
-    margin: 0 0 0 10px;
-    border-radius: 50px;
-    border: solid 2px #fcb316;
-    color: #044383;
-}
-
-.botonFooter:hover {
-    background: none;
-    border: solid 2px #fcb316;
-    color: #fcb316;
-}
-
-/* FIN FOOTER */
-/*  FIN BODY */
 /******************************************** FIN LINK SOBRE INDEX *****************************************************/
 /******************************************** INICIO LINK SOBRE NOSOTROS *****************************************************/
 
 .carouselImgContainer img {
     width: 100%;
-    height: 36rem;
+    height: 532px;
+    margin: 0;
     /* background-image: url(../image/Fondo-Azul-Clean.jpg); */
     background-size: cover;
     margin-bottom: 1rem;
@@ -347,6 +408,10 @@ ul {
     border: solid #cfd4d6;
     border-radius: 1rem;
 }
+
+
+
+
 
 .contactContainer {
     width: 304px;
