@@ -134,13 +134,31 @@ footer {
     width: 50%;
 }
 .footerContainer1 .cantainerLogos{
-    width: 40%;
+    width: 50%;
 }
+
+.footerContainer1 .datos{
+    width: 50%;
+    color: #ffffff;
+}
+
+.footerContainer1 .redes{
+    width: 20%;
+}
+
+.footerContainer1 .botonesFooter{
+    width: 30%;
+}
+
+
+
+
 
 /*---------------estilos para lista del footer -----------*/
 
 footer ul{
     width: 100%;
+    padding: 0%;
     
 }
 
@@ -163,6 +181,7 @@ footer li a:hover{
 }
 
 
+/*---------------estilos para botones del footer -----------*/
 
 
 .botonFooter {
@@ -179,6 +198,15 @@ footer li a:hover{
     background: none;
     border: solid 2px #fcb316;
     color: #fcb316;
+}
+
+
+/*---------------estilos para redes del footer -----------*/
+
+
+.facebook:hover{
+    
+    cursor: pointer;
 }
 
 /* FIN FOOTER */
