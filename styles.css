@@ -137,10 +137,20 @@ footer {
     width: 50%;
 }
 
+.footerContainer1 .cantainerLogos img{
+    padding-right: 50px;
+}
+
 .footerContainer1 .datos{
     width: 50%;
     color: #ffffff;
 }
+
+.footerContainer1 .datos p{
+    margin: 0;
+    font-size: 1.1rem;
+}
+
 
 .footerContainer1 .redes{
     width: 20%;
@@ -201,13 +211,6 @@ footer li a:hover{
 }
 
 
-/*---------------estilos para redes del footer -----------*/
-
-
-.facebook:hover{
-    
-    cursor: pointer;
-}
 
 /* FIN FOOTER */
 
@@ -349,16 +352,19 @@ h4 {
 /* FIN MAIN */
 
 /******************************************** FIN LINK SOBRE INDEX *****************************************************/
-/******************************************** INICIO LINK SOBRE NOSOTROS *****************************************************/
+/******************************************** SOBRE NOSOTROS *****************************************************/
 
-.carouselImgContainer img {
+
+.banner {
+
     width: 100%;
     height: 532px;
-    margin: 0;
-    /* background-image: url(../image/Fondo-Azul-Clean.jpg); */
-    background-size: cover;
-    margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
 }
+
+
 
 .sectionHistoryAbautUs {
     margin: 5rem 0;
