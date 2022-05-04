@@ -9,7 +9,7 @@
 
 */
 
-
+/*
 @font-face {
     font-family: Frutige;
     font-weight: bold;
@@ -35,7 +35,7 @@
     font-weight: 700;
     src: url(/fuentes/Black.otf);
 }
-
+*/
 
 * {
     margin: 0;
@@ -43,7 +43,7 @@
     /* box-sizing: border-box; */
     text-decoration: none;
     max-width: 100%;
-    font-family: Frutige;
+    
 
 }
 
@@ -53,7 +53,7 @@
 
 body {
     background: #9cabb1;
-    font-family: Frutige;
+    
 }
 
 
@@ -83,7 +83,7 @@ div.container {
 }
 
 .navbar-expand .navbar-nav .nav-link {
-    font-family: Frutige;
+    
     color: #044383;
 }
 
@@ -101,7 +101,7 @@ li.active {
 }
 
 .btnP {
-    font-family: Frutige;
+    
     background: #FFFFFF;
     width: 140px;
     padding: 0.4rem;
@@ -118,7 +118,7 @@ li.active {
 }
 
 .btnS {
-    font-family: Frutige;
+    font-family:Arial, Helvetica, sans-serif;
     background: #fcb316;
     width: 140px;
     padding: 0.4rem;
@@ -212,7 +212,6 @@ footer li {
 
 footer li a{
     color:#ffffff;
-    font-family: Frutige;
     font-size: 40px;
     font-weight: normal;
     text-decoration: none;
@@ -279,7 +278,7 @@ main {
 }
 
 .textoCarousel h1 {
-    font-family: Frutige;
+    
     font-size: 75px;
     color: #FFFFFF;
     text-align: left;
@@ -287,9 +286,9 @@ main {
 }
 
 .textoCarousel p {
-    font-family: Frutige;
-    font-style: normal;
-    line-height: normal;
+    
+    font-weight:400;
+    line-height:45px;
     font-size: 40px;
     color: #ffffff;
     margin: 0;
@@ -393,7 +392,7 @@ main {
 .threeCardContainer p {
     margin: 2rem 0;
     font-size: 16px;
-    font-family: Frutige;
+    
     font-weight: normal;
     font-style: normal;
 }
@@ -424,7 +423,7 @@ article div h2{
     padding-top: 30px;
     font-size: 50px;
     color: #044383;
-    font-family: Frutige;
+    
 }
 
 article div{
@@ -434,7 +433,7 @@ article div{
 article div p{
     font-size: 20px;
     color: #044383;
-    font-family: Frutige;
+    
 }
 
 
@@ -444,7 +443,7 @@ article div p{
     padding:0px 0px 50px 150px;
     font-size: 18px;
     color: #044383;
-    font-family: Frutige;
+    
 }
 
 .img-sn{
