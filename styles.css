@@ -311,7 +311,7 @@ main {
 }
 
 .projectAndCauseContainer {
-    width: 60rem;
+    width: 65%;
     margin: 7rem auto;
     display: flex;
 }
@@ -418,7 +418,7 @@ article{
     margin: 5rem auto;
 }
 
-article div h2{
+h2{
     padding-bottom: 30px;
     padding-top: 30px;
     font-size: 50px;
