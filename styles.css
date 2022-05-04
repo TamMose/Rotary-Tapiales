@@ -10,12 +10,40 @@
 */
 
 
+@font-face {
+    font-family: Frutige;
+    font-weight: bold;
+    font-style: normal;
+    src: url(/fuentes/Bold.otf);
+}
+
+@font-face {
+    font-family: Frutige;
+    font-weight: normal;
+    font-style: normal;
+    src: url(/fuentes/Roman.otf);
+}
+
+@font-face {
+    font-family: Frutige_Italic;
+    font-style: italic;
+    src: url(/fuentes/Italic.otf);
+}
+
+@font-face {
+    font-family: Frutige_Black;
+    font-weight: 700;
+    src: url(/fuentes/Black.otf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
     text-decoration: none;
     max-width: 100%;
+    font-family: Frutige;
 
 }
 
@@ -25,6 +53,7 @@
 
 body {
     background: #9cabb1;
+    font-family: Frutige;
 }
 
 
@@ -54,6 +83,7 @@ div.container {
 }
 
 .navbar-expand .navbar-nav .nav-link {
+    font-family: Frutige;
     color: #044383;
 }
 
@@ -63,14 +93,15 @@ div.container {
 }
 
 li:hover {
-    font-weight: 600;
+    font-weight: bold;
 }
 
 li.active {
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .btnP {
+    font-family: Frutige;
     background: #FFFFFF;
     width: 140px;
     padding: 0.4rem;
@@ -87,6 +118,7 @@ li.active {
 }
 
 .btnS {
+    font-family: Frutige;
     background: #fcb316;
     width: 140px;
     padding: 0.4rem;
@@ -180,8 +212,9 @@ footer li {
 
 footer li a{
     color:#ffffff;
+    font-family: Frutige;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: normal;
     text-decoration: none;
 }
 
@@ -239,38 +272,38 @@ main {
 .textoCarousel {
     position: absolute;
     top: 15rem;
-    left: 5rem;
+    left: 200px;
     /* border: #cfd4d6 solid; */
-    width: 45rem;
+    width: 942px;
     height: 25rem;
 }
 
-.textoCarousel h2 {
+.textoCarousel h1 {
+    font-family: Frutige;
+    font-size: 75px;
     color: #FFFFFF;
-    text-align: center;
-    margin: 2rem;
+    text-align: left;
+    margin: 0px 20px 20px 0px;
 }
 
 .textoCarousel p {
-    color: #f7a81b;
-    font-size: large;
-    width: 30rem;
-    margin: 2rem auto 2rem auto;
+    font-family: Frutige;
+    font-style: normal;
+    line-height: normal;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0;
+}
+.amarillo{
+    color: #fcb316;
 }
 
 .textoCarousel button {
-    background: #337ab7;
-    width: 7rem;
-    margin: 2rem 0 0 8rem;
-    border-radius: 2px;
-    transition: 2s;
+    margin-top: 40px;
+    
+    
 }
 
-.textoCarousel button:hover {
-    background: #019fcb;
-    border-radius: 2px;
-    transition: 2s;
-}
 
 /*FIN SECTIONS CAROUSEL */
 /*INICIO SECTION HISTORY AND CAUSE */
@@ -325,28 +358,44 @@ main {
 /*FIN SECTION THEMISSION */
 /*INICIO SECTION THREECARD */
 .threeCard {
+    width: 80%;
+    margin: 5rem auto;
     display: flex;
 }
 
 .threeCardContainer {
     width: 30%;
     margin: auto;
-    background: gray;
+    background: none;
+}
+.threeCardContainer:hover{
+    cursor: pointer;
+    background:#019fcb;
 }
 
 .threeCardContainer2 {
-    padding: 1rem;
+    padding: 0;
     margin: auto;
     height: 40rem;
 }
 
-.threeCardContainer2Txt,
-h4 {
+.threeCardContainer3 {
+    padding: 20px;
+    margin: auto;
+    
+}
+
+
+.threeCardContainer h4{
     margin: 2rem 0;
 }
 
-.threeCardContainer2TxtP {
+.threeCardContainer p {
     margin: 2rem 0;
+    font-size: 16px;
+    font-family: Frutige;
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*FIN SECTION THREECARD */
@@ -365,9 +414,60 @@ h4 {
     margin: 0px;
 }
 
+article{
+    width: 65%;
+    margin: 5rem auto;
+}
+
+article div h2{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 50px;
+    color: #044383;
+    font-family: Frutige;
+}
+
+article div{
+    padding-bottom: 50px;
+}
+
+article div p{
+    font-size: 20px;
+    color: #044383;
+    font-family: Frutige;
+}
 
 
-.sectionHistoryAbautUs {
+
+.segunda-lectura{
+    
+    padding:0px 0px 50px 150px;
+    font-size: 18px;
+    color: #044383;
+    font-family: Frutige;
+}
+
+.img-sn{
+    padding:0px 0px 0px 150px;
+}
+
+.img-sn1{
+    padding: 0px;
+}
+.img-sn2{
+    padding: 0px;
+}
+.img-sn1 img{
+    padding: 5px;
+}
+.img-sn2 img{
+    padding: 5px;
+}
+
+
+
+
+/*.sectionHistoryAbautUs {
     margin: 5rem 0;
 }
 
@@ -387,7 +487,7 @@ h4 {
 }
 
 .rotaryTapialesContainer p {
-    /* height: 10rem; */
+    /* height: 10rem; 
     width: 67rem;
 }
 
@@ -399,9 +499,7 @@ h4 {
     width: 67rem;
 }
 
-/* .sectionInfoContainer2 {
-    border: solid;
-} */
+
 .sectionInfoContainer2 p {
     width: 67rem;
 }
@@ -424,7 +522,7 @@ h4 {
 .sectionInformationImgContainer .ImgABContainer .ImgAContainer {
     border: black;
     margin: 0 0 1rem 0;
-}
+} */
 
 /******************************************** FIN LINK SOBRE NOSOTROS *****************************************************/
 
@@ -460,8 +558,6 @@ h4 {
     border: solid #cfd4d6;
     border-radius: 1rem;
 }
-
-
 
 
 
