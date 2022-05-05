@@ -333,11 +333,11 @@ main {
     height: auto;
 }
 
-@media only screen and (max-width: 1080px) {
-    .projectAndCauseContainer {
+/*@media only screen and (max-width: 1080px) {
+    .contenedor-hpc{
         flex-wrap: wrap;
     }
-}
+}*/
 
 
 .contenedor-hpc3 {
