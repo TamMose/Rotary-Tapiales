@@ -37,6 +37,8 @@
 }
 */
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -52,7 +54,7 @@
 
 
 body {
-    background: #9cabb1;
+    background-color: rgb(237, 240, 243);
     
 }
 
@@ -255,7 +257,14 @@ footer li a:hover{
 
 main {
     width: 100%;
-    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.home{
+    background-color: #eff8ff; 
 }
 
 /*INICIO SECTIONS CAROUSEL */
@@ -306,14 +315,22 @@ main {
 
 /*FIN SECTIONS CAROUSEL */
 /*INICIO SECTION HISTORY AND CAUSE */
-.projectAndCause {
+.contenedor-hpc {
+    margin:  auto;
     width: 100%;
+    
 }
 
-.projectAndCauseContainer {
+.contenedor-hpc2{
+    background-color:#ffffff;
     width: 65%;
-    margin: 7rem auto;
+    margin: 5rem auto;
     display: flex;
+}
+
+.contenedor-hpc2 img{
+    width: 100%;
+    height: auto;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -322,17 +339,46 @@ main {
     }
 }
 
-.projectAndCauseImgContainer {
-    border: solid;
-}
 
-.projectAndCauseImgContainer img {
-    height: 100%;
-}
-
-.projectAndCauseTxtContainer {
+.contenedor-hpc3 {
+    width: 100%;
+    height: auto;
     margin: 1rem 3rem;
 }
+
+.contenedor-hpc4 {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.contenedor-hpc4 img{
+    overflow: hidden;
+}
+
+.contenedor-hpc4 img:hover{
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 
 .card-title {
     color: red;
@@ -362,10 +408,15 @@ main {
     display: flex;
 }
 
+.threeCard img{
+    border-bottom: 5px solid #044383;
+}
+
 .threeCardContainer {
+    
     width: 30%;
     margin: auto;
-    background: none;
+    background-color: #ffffff;
 }
 .threeCardContainer:hover{
     cursor: pointer;
