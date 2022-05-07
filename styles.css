@@ -423,9 +423,20 @@ main {
 
 
 
-.threeCard img{
-    border-bottom: 5px solid #044383;
+.threeCardContainer img{
+    
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+
+.threeCardContainer:hover img{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
 
 .threeCardContainer {
     overflow: hidden;
@@ -439,15 +450,20 @@ main {
     
     background:#ffffff;
 }
-
+.threeCardContainer2 div{
+    overflow: hidden;
+}
 .threeCardContainer2 {
+    
     padding: 0;
     margin: auto;
     height: 38rem;
     
+    
 }
 
 .threeCardContainer3 {
+    border-top: 5px solid #044383;
     padding: 40px;
     margin: auto;
     
