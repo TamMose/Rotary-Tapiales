@@ -328,13 +328,16 @@ main {
     margin:  auto;
     width: 100%;
     
+    
 }
 
 .contenedor-hpc2{
+    
     background-color:#ffffff;
     width: 65%;
     margin: 5rem auto;
     display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contenedor-hpc2 img{
@@ -484,7 +487,7 @@ main {
 
 .boton-card:hover{
     cursor: pointer;
-    color: #337ab7;
+    color: #fcb316;
 }
 
 
