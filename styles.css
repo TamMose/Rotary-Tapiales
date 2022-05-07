@@ -264,7 +264,7 @@ main {
 }
 
 .home{
-    background-color: #eff8ff; 
+    background-color: #f9fcff; 
 }
 
 /*INICIO SECTIONS CAROUSEL */
@@ -389,9 +389,7 @@ main {
 }
 
 
-.card-title {
-    color: red;
-}
+
 
 .card-text {
     margin: 2rem 0;
@@ -412,50 +410,83 @@ main {
 /*FIN SECTION THEMISSION */
 /*INICIO SECTION THREECARD */
 .threeCard {
-    width: 80%;
+    width: 70%;
     margin: 5rem auto;
     display: flex;
+    
 }
+
+
+
+
 
 .threeCard img{
     border-bottom: 5px solid #044383;
 }
 
 .threeCardContainer {
-    
+    overflow: hidden;
+    border-radius: 12px ;
     width: 30%;
     margin: auto;
     background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .threeCardContainer:hover{
-    cursor: pointer;
-    background:#019fcb;
+    
+    background:#ffffff;
 }
 
 .threeCardContainer2 {
     padding: 0;
     margin: auto;
-    height: 40rem;
+    height: 38rem;
+    
 }
 
 .threeCardContainer3 {
-    padding: 20px;
+    padding: 40px;
     margin: auto;
     
 }
 
+.threeCardContainer h5{
+    color: #337ab7;
+    padding-bottom: 10PX;
+    font-size: 12px;
+    font-weight: 500;
+}
 
-.threeCardContainer h4{
-    margin: 2rem 0;
+.threeCardContainer h3{
+    margin:0;
+    font-size:30px ;
 }
 
 .threeCardContainer p {
     margin: 2rem 0;
+    font-weight: 300;
     font-size: 16px;
-    
-    font-weight: normal;
-    font-style: normal;
+    color: #5c727d;
 }
+
+.card-linea {
+    border-top: 0.5px solid #e0e0e0;
+    padding-top: 20px;
+}
+
+.boton-card{
+    padding: 0;
+    text-decoration: none;
+    font-size: 14PX;
+    font-weight: 700;
+    color: #044383;
+}
+
+.boton-card:hover{
+    cursor: pointer;
+    color: #337ab7;
+}
+
 
 /*FIN SECTION THREECARD */
 /* FIN MAIN */
@@ -482,16 +513,16 @@ main {
 
 
 .linea{
-    border-bottom:20px solid #fcb316;
+    border-bottom:10px solid #fcb316;
 }
 
 
 .texto-sn{
     
-    position: absolute;
     font-size: 75px;
     color: #ffffff;
-    top: 35%;
+    position: absolute;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     
