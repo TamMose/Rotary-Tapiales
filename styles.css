@@ -599,7 +599,7 @@ article div p{
 
 /******************************************** INICIO LINK CONTACTO *****************************************************/
 
-.formContainer {
+/* .formContainer {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
@@ -687,15 +687,266 @@ form :hover.button {
 }
 
 .mapsContainer {
-    width: 100%;
+    width: 100%; 
+}*/
+
+.mapsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .maps {
-    width: 100%;
-    height: 532px;
+    width: 80%;
+    height: 530px;
     margin: 0;
 }
 
+
+/*Contacto nuevo*/
+
+:focus{
+    outline: none;
+}
+
+/*formulario*/
+
+.formWrap {
+    width: 80%;
+    height: 530px;
+    margin: 50px auto;
+    display: flex;
+
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*Informacion de contacto*/
+
+.contactInfo::before {
+    content:'';
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: #fcb316;;
+
+    opacity: 0.6;
+
+}
+
+
+.contactInfo{
+    width: 38%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    /* justify-content: center; */
+
+    background-image: url('./image/historia1.jpg');
+    background-size:cover ;
+    background-position: center center;
+}
+
+.infoTittle , .infoItems {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+
+}
+
+.infoTittle{
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.infoTittle h2{
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.infoItems{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 5px;
+}
+.infoItems p{
+    
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.infoItems p:nth-child(1) span{
+    font-size: 30px;
+
+    margin-right: 15px;
+    margin-left: 4px;
+}
+
+.infoItems p:nth-child(2) span{
+    font-size: 10px;
+    margin-right: 15px;
+    margin-left: 4px;
+}
+
+form.formContact {
+    width: 62%;
+    padding: 30px 40px;
+    margin: auto;
+}
+
+form.formContact h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+form.formContact .userInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+form.formContact label {
+    font-weight: 600;
+
+}
+.namePhone{
+    display:flex;
+    flex-direction: row;
+}
+.formContact div div div{
+    margin: auto;
+
+}
+
+
+
+form.formContact input, form.formContact textarea, form.formContact div input {
+    width: 100%;
+    padding: 8px 0px 5px;
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+    margin-bottom: 20px;
+
+    font-family: 'Arial, Helvetica, sans-serif';
+    color: #5A5A5A;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+form.formContact textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+form.formContact input[type="button"]{
+    width: 180px;
+    background: #4091EC;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    
+    align-self: center;
+
+    color: #fff;
+    font-family: 'Open sans';
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+form.formContact input[type="button"]:hover{
+    transition: all 1s;
+    background: #b5e1f3;
+
+}
+
+/*Mensaje de error*/
+
+.modalWrap {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mensajeModal {
+    background: #FFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+}
+
+.mensajeModal h3{
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mensajeModal h3:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background:#C5C5C5 ;
+    margin: 10px 0px 15px;
+}
+
+.mensajeModal p {
+    font-size: 16px;
+    color: #606060;
+}
+
+.mensajeModal p:before {
+    content: "\food";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #E25151;
+    margin-right:8px ;
+
+}
+
+.mensajeModal #btnClose{
+    display: inline-block;
+    padding: 3px 10px;
+    margin-top: 10px;
+
+    background: #E35151;
+    color: 2px solid #B14141;
+    cursor: pointer;
+
+
+}
 /* FIN FORMULARIO CONTACTO */
 
 
