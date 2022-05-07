@@ -277,6 +277,15 @@ main {
     margin: 0px;
 }
 
+.portada{
+    
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    filter:brightness(0.7);
+    
+}
+
 .textoCarousel {
     position: absolute;
     top: 15rem;
@@ -458,27 +467,34 @@ main {
 .banner {
     
     width: 100%;
-    height: 532px;
+    height: 530px;
     position: relative;
     overflow: hidden;
     margin: 0px;
-}
-.portada{
-    
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+    background-image: url("/image/historia1.png");
+    background-attachment: fixed;
     filter:brightness(0.7);
+    
+}
+
+
+
+
+
+.linea{
+    border-bottom:20px solid #fcb316;
 }
 
 
 .texto-sn{
+    
     position: absolute;
     font-size: 75px;
     color: #ffffff;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 /*video{
@@ -489,7 +505,7 @@ main {
 }*/
 
 article{
-    width: 65%;
+    width: 50%;
     margin: 5rem auto;
 }
 
@@ -511,15 +527,20 @@ article div p{
     
 }
 
-
-
 .segunda-lectura{
+    padding:0px 0px 50px 230px;
+}
+
+.segunda-lectura p{
     
-    padding:0px 0px 50px 150px;
-    font-size: 18px;
-    color: #044383;
+    
+    font-size: 16px;
+    line-height: 1.8;
+    color: #3d6072;
     
 }
+
+
 
 .img-sn{
     padding:0px 0px 0px 150px;
@@ -616,8 +637,24 @@ article div p{
     margin: 0;
 }
 
+.banner2{
+    
+    width: 100%;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    background-image: url("/image/proyectosycausas.png");
+    background-attachment: fixed;
+    filter:brightness(0.7);
+}
+
 
 /******************************************** INICIO LINK SOBRE NOSOTROS *****************************************************/
+
+
+
+
 /******************************************** FIN LINK PROYECTOS Y CAUSAS *****************************************************/
 
 
