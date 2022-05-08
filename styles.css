@@ -377,7 +377,7 @@ main {
 
 
 .contenedor-hpc3 {
-    border-right:5px solid #044383; ;
+    
     width: 100%;
     height: auto;
     margin: 1rem 1rem;
@@ -389,7 +389,7 @@ main {
 }
 
 .contenedor-hpc4 {
-
+    
     overflow: hidden;
     width: 100%;
     margin: 0;
