@@ -365,6 +365,7 @@ main {
 }
 
 .contenedor-hpc2 img {
+    object-fit: cover;
     height: 100%;
     width: auto;
 }
@@ -396,7 +397,7 @@ main {
 }
 
 .contenedor-hpc4 img {
-    
+    object-fit: cover;
     width: auto;
     height: 100%;
 }
@@ -440,7 +441,7 @@ main {
 }
 
 .cardButton {
-    margin-top: 40px;
+    margin: 30px 0px;
 }
 
 /*FIN SECTION HISTORY AND CAUSE */
@@ -519,7 +520,7 @@ h5 {
 
 
 .threeCardContainer img {
-
+    object-fit: cover;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease-in-out;
@@ -728,10 +729,12 @@ article div p {
 }
 
 .img-sn1 img {
+    object-fit: cover;
     padding: 5px;
 }
 
 .img-sn2 img {
+    object-fit: cover;
     padding: 5px;
 }
 
