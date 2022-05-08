@@ -521,7 +521,7 @@ main {
     position: relative;
     overflow: hidden;
     margin: 0px;
-    background-image: url("/image/historia1.png");
+    background-image: url("../image/historia1.png");
     background-attachment: fixed;
     filter:brightness(0.7);
     
