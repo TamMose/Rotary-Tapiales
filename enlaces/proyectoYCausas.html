@@ -61,7 +61,34 @@
             realizar un cambio significativo en la vida de las personas.</p>
     </div>
 
+    <div class="marcarLD">
+        <div class="marcarLD1">
+        <div class="marcarLD2">
+            <h5>Marca la diferencia</h5>
+            <h1>Marca la diferencia</h1>
+            <div class="linea-left"></div>
+            <p>Rotary se concentra en causas para fortalecer las relaciones internacionales, mejorar vidas, y
+                crear un mundo más propicio para fomentar nuestras iniciativas pro paz y nuestra campaña para
+                erradicar la polio.</p>
+
+        </div>
+
+        <div class="marcarLD2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oP9qamim2Sk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+
+    </div>
+
     <main>
+
+
+
+
+
+
+
+
         <div>
             <article>
                 <div class="texto-historia">
@@ -74,6 +101,26 @@
                         International y en las cuales trabajamos fervientemente para organizar la acción de servicio de
                         nuestros socios y socias. Las mismas están basadas en:
                     </p>
+
+
+
+
+
+
+                    <div>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
                     <div class="segunda-lectura">
 
                         <p>
@@ -188,7 +235,7 @@
                 </div>
         </article>
         <article>
-            <div  id="patrocina" class="texto-historia">
+            <div id="patrocina" class="texto-historia">
                 <h2>PATROCINA UNA CAUSA</h2>
                 <p>Sí tu empresa o PyME quiere contribuir a realizar acciones de Responsabilidad Social para alguna de
                     nuestras causas, nuestro club está esperándote. Al colaborar con Rotary, nuestros 1,2 millones de
@@ -206,7 +253,7 @@
             </div>
         </article>
         <article>
-            <div id="polio"  class="texto-historia">
+            <div id="polio" class="texto-historia">
                 <h2>POLIO PLUS</h2>
                 <p>Los socios de Rotary han jugado un papel predominante en la campaña de erradicación de la polio.
                     Gracias a sus esfuerzos, la enfermedad no solo ha sido eliminada en 122 países sino que también los
@@ -214,7 +261,7 @@
                     la enfermedad por el virus del Ébola.</p>
 
                 <p>US$ 65 millones es el monto invertido por Rotary en subvenciones para combatir enfermedades.</p>
-                
+
                 <div class="segunda-lectura">
 
                     <p>La poliomielitis (polio), enfermedad que ocasiona parálisis e incluso la muerte, aún constituye
@@ -309,6 +356,27 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+
+
+<!-- TAB BOX-->
+<script>
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
     </script>
 
 </body>
