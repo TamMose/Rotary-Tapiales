@@ -265,6 +265,7 @@ main {
     height: 845px;
     position: relative;
     overflow: hidden;
+    
     margin: 0px;
 }
 
@@ -273,8 +274,13 @@ main {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    filter: brightness(0.7);
+    filter: brightness(0.6);
 
+}
+
+.portada img{
+    object-fit: cover;
+    text-align: center;
 }
 
 .textoCarousel {
@@ -658,6 +664,7 @@ h5 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 
 }
 
@@ -826,6 +833,7 @@ iframe {
     border-radius: 0px;
     text-align: center;
     margin: 30px 5px;
+
 }
 
 .linea-left {
@@ -839,6 +847,13 @@ iframe {
 
 
 /*---Areas de interesas---*/
+
+article div .proyectosh2{
+    padding: 0px 0px 0px 0px;
+}
+.proyectosh2  h2{
+    padding-right: 160px;
+}
 
 .areas {
     width: 80%;
@@ -876,7 +891,7 @@ iframe {
 
 .home2 {
 
-    background-color: #C5C5C5;
+    background-color: #e3dede;
 }
 
 .proyectos p {
@@ -884,7 +899,7 @@ iframe {
     padding-right: 50px;
     margin: 1rem 0;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     color: #044383;
     line-height: 26px;
 }
@@ -912,6 +927,21 @@ iframe {
 
 .newspaper {
     column-count: 2;
+}
+
+.video-proyectos{
+    position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+
+.video-proyectos iframe{
+    position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
 
