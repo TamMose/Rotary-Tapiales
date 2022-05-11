@@ -1,10 +1,14 @@
 $(document).ready(function()
 
     {
+        let correoValido=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/;
 
         $('#btnSend').click(function()
         {
-            var validacion='';
+            let validacion='';
+
+
+
             //Validando nombre
             if( $('#name').val() ==''){
                 validacion+='<p>Escriba un nombre<p>';
@@ -12,13 +16,25 @@ $(document).ready(function()
             } else {
                 $('#name').css("border-bottom-color","#d1d1d1")
                 }
+                //Validando telefono
+            if( $('#phone').val() ==''){
+                validacion+='<p>Escriba un numero de telefono<p>';
+                $('#phone').css("border-bottom-color","#f14b4b")
+            } else {
+                $('#phone').css("border-bottom-color","#d1d1d1")
+                }
             //Validando correo
+
             if( $('#email').val() ==''){
                 validacion+='<p>Ingrese un Correo electronico<p>';
                 $('#email').css("border-bottom-color","#f14b4b")
-            } else {
+            } else if (correoValido.test($('#email').val())){
+                validacion+='<p>El correo ingresado no es valido<p>';
                 $('#email').css("border-bottom-color","#d1d1d1")
                 
+            } else { 
+                $('#email').css("border-bottom-color","#d1d1d1")
+
             }
 
             //Validando mensaje

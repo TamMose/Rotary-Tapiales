@@ -38,7 +38,7 @@
                             </li>
                         </ul>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end buttonHeader">
-                            <button class="btnP " type="button">Donar</button>
+                            <button class="btnP " type="button">Donar dsdfsd</button>
                             <button class="btnS" type="button">Unite</button>
                         </div>
                     </div>
@@ -83,11 +83,11 @@
         <section class="formWrap">
             <section class="contactInfo">
                 <section class="infoTittle">
-                    <h2>ROTARY TAPIALES</h2>
+                    <h2>ROTARY <br>TAPIALES</h2>
                     <!-- <img src="image/Rotary-T-Logo-.png" alt=""> -->
                 </section>
                 <section class="infoItems">
-                    <p>MARTA CRUXENT</p>
+
                     <p>+54 9 11 6299-0500</p>
                     <p>Los Nogales 1482, Tapiales</p>
                     <p>Provincia de Buenos Aires, Argentina.</p>
@@ -96,26 +96,27 @@
                 </section>
             </section>
     
-            <form action="" class="formContact">
+            <form action="send.php" method="post" class="formContact">
                 <h2>Envia un mensaje</h2>
                 <div class="userInfo">
                     <div class="namePhone">
                         <div>
                             <label for="name">Nombres: </label>
-                            <input type="text" id="name">
+                            <input type="text" id="name" name="nombre" required>
                         </div>
                         <div>
                             <label for="phone">Telefono/Celular: </label>
-                            <input type="text" id="phone"  maxlength="">
+                            <input type="text" id="phone"  maxlength="" name="telefono" required>
                         </div>
                     </div>
-                <label for="email">Correo electronico: </label>
-                <input type="text" id="email">
-    
-                <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" ></textarea>
-    
-                    <input type="button" value="Enviar Mensaje" id="btnSend">
+                    <label for="email">Correo electronico: </label>
+                    <input type="text" id="email" name="correo" required>
+        
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje"  name="mensaje" required></textarea>
+        
+                    <input type="submit" value="Enviar Mensaje" id="btnSend">
+                
                 </div>
             </form>
         </section>
