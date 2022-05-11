@@ -883,7 +883,7 @@ iframe {
 
     padding-right: 50px;
     margin: 1rem 0;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     color: #044383;
     line-height: 26px;
@@ -894,6 +894,8 @@ iframe {
     padding-right: 5px;
 
 }
+
+
 
 .proyectos1 {
     position: relative;
