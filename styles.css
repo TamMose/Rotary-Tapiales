@@ -248,9 +248,10 @@ footer li a:hover {
 main {
     width: 100%;
     padding-top: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     margin: 0;
     background-color: #ffffff;
+
 }
 
 .home {
@@ -669,12 +670,12 @@ h5 {
 
 article {
     width: 60%;
-    margin: 5rem auto;
+    margin: 4rem auto 0 auto;
 }
 
 h2 {
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 50px;
     font-size: 50px;
     color: #044383;
 
@@ -769,32 +770,32 @@ article div p {
 
 
 
-.marcarLD{
+.marcarLD {
     width: 100%;
     height: auto;
-    background-color: #337ab7;
-    
+    /*background-color: #337ab7;*/
+
     position: relative;
     margin: auto;
     overflow: hidden;
-    
-    
+
+
 }
 
-.marcarLD img{
+.marcarLD img {
     position: absolute;
     z-index: -2;
     object-fit: cover;
 }
 
-.marcarLD1{
+.marcarLD1 {
     position: relative;
     margin: auto;
     width: 60%;
     display: flex;
 }
 
-.marcarLD2{
+.marcarLD2 {
     display: block;
     margin: 80px 0px;
     padding: 0px;
@@ -802,7 +803,7 @@ article div p {
 
 }
 
-.marcarLD2 h5{
+.marcarLD2 h5 {
     color: #fcb316;
     font-size: 14px;
     padding-top: 30px;
@@ -810,10 +811,10 @@ article div p {
     font-weight: 400;
 }
 
-.marcarLD2 p{
+.marcarLD2 p {
 
-    color: #ffffff;
-    padding: 25px 90px 0px 0px ;
+    color: #044383;
+    padding: 25px 90px 0px 0px;
     font-weight: 300;
     font-size: 20px;
     margin: 0;
@@ -821,13 +822,13 @@ article div p {
 
 }
 
-iframe{
+iframe {
     border-radius: 0px;
-    text-align:center;
-    margin: 30px 5px ;
+    text-align: center;
+    margin: 30px 5px;
 }
 
-.linea-left{
+.linea-left {
     margin: 20px 0px;
     text-align: left;
     border-radius: 5px;
@@ -839,39 +840,77 @@ iframe{
 
 /*---Areas de interesas---*/
 
-.areas{
+.areas {
     width: 80%;
     margin: 70px auto;
     padding: 0;
 }
 
-.areas1{
+.areas1 {
     margin-top: 15px;
 }
 
-.area2{
+.area2 {
     padding: 0;
     overflow: hidden;
 }
 
-.area2 img{
+.area2 img {
     padding: 0;
     margin: auto;
     transition: transform .2s;
 }
 
-.area2:hover img{
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    
+.area2:hover img {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
 }
 
-.areas h4{
+.areas h4 {
     color: #044383;
 }
 
+/*---Proyectos actuales---*/
 
 
+.home2 {
 
+    background-color: #C5C5C5;
+}
+
+.proyectos p {
+
+    padding-right: 50px;
+    margin: 1rem 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: #044383;
+    line-height: 26px;
+}
+
+.proyectos div img {
+    width: 40px;
+    padding-right: 5px;
+
+}
+
+.proyectos1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+.proyecto2 {
+    display: flex;
+    padding: 0;
+}
+
+.newspaper {
+    column-count: 2;
+}
 
 
 /******************************************** FIN LINK PROYECTOS Y CAUSAS *****************************************************/
@@ -958,7 +997,7 @@ form :hover.button {
     width: 100%; 
 }*/
 
-.mapsContainer{
+.mapsContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -974,7 +1013,7 @@ form :hover.button {
 
 /*Contacto nuevo*/
 
-:focus{
+:focus {
     outline: none;
 }
 
@@ -995,7 +1034,7 @@ form :hover.button {
 /*Informacion de contacto*/
 
 .contactInfo::before {
-    content:'';
+    content: '';
     width: 100%;
     height: 100%;
 
@@ -1003,35 +1042,37 @@ form :hover.button {
     top: 0;
     left: 0;
 
-    background: #fcb316;;
+    background: #fcb316;
+    ;
 
     opacity: 0.6;
 
 }
 
 
-.contactInfo{
+.contactInfo {
     width: 38%;
     position: relative;
 
     display: flex;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
     /* justify-content: center; */
 
     background-image: url('./image/historia1.jpg');
-    background-size:cover ;
+    background-size: cover;
     background-position: center center;
 }
 
-.infoTittle , .infoItems {
+.infoTittle,
+.infoItems {
     position: relative;
     z-index: 2;
     color: #fff;
 
 }
 
-.infoTittle{
+.infoTittle {
 
     width: 100%;
     height: 50%;
@@ -1041,12 +1082,12 @@ form :hover.button {
 }
 
 
-.infoTittle h2{
+.infoTittle h2 {
     font-size: 35px;
     margin-top: 40px;
 }
 
-.infoItems{
+.infoItems {
     width: 100%;
     height: 50%;
     display: flex;
@@ -1054,22 +1095,23 @@ form :hover.button {
     justify-content: flex-end;
     padding: 20px 5px;
 }
-.infoItems p{
-    
+
+.infoItems p {
+
     font-size: 16px;
     font-weight: 600;
     margin-left: 10px;
     margin-bottom: 10px;
 }
 
-.infoItems p:nth-child(1) span{
+.infoItems p:nth-child(1) span {
     font-size: 30px;
 
     margin-right: 15px;
     margin-left: 4px;
 }
 
-.infoItems p:nth-child(2) span{
+.infoItems p:nth-child(2) span {
     font-size: 10px;
     margin-right: 15px;
     margin-left: 4px;
@@ -1100,25 +1142,27 @@ form.formContact label {
 
 
 
-.namePhone{
-    
-    display:flex;
+.namePhone {
+
+    display: flex;
     flex-direction: row;
 }
 
-.namePhone div{
+.namePhone div {
     text-align: left;
     margin: 0;
 }
 
-.formContact div div div{
+.formContact div div div {
     margin: auto;
 
 }
 
 
 
-form.formContact input, form.formContact textarea, form.formContact div input {
+form.formContact input,
+form.formContact textarea,
+form.formContact div input {
     width: 100%;
     padding: 8px 0px 5px;
     border: none;
@@ -1139,13 +1183,13 @@ form.formContact textarea {
     min-height: 100px;
 }
 
-form.formContact input[type="button"]{
+form.formContact input[type="button"] {
     width: 180px;
     background: #4091EC;
     padding: 10px;
     border: none;
     /*border-radius: 25px;*/
-    
+
     align-self: center;
 
     color: #fff;
@@ -1156,7 +1200,7 @@ form.formContact input[type="button"]{
 
 }
 
-form.formContact input[type="button"]:hover{
+form.formContact input[type="button"]:hover {
     transition: all 1s;
     background: #b5e1f3;
 
@@ -1170,7 +1214,7 @@ form.formContact input[type="button"]:hover{
     background: rgba(0, 0, 0, 0.7);
 
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     z-index: 3;
 
@@ -1178,6 +1222,7 @@ form.formContact input[type="button"]:hover{
     justify-content: center;
     align-items: center;
 }
+
 .mensajeModal {
     background: #FFF;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
@@ -1185,19 +1230,19 @@ form.formContact input[type="button"]:hover{
     padding: 30px 20px 15px;
 }
 
-.mensajeModal h3{
+.mensajeModal h3 {
     text-align: center;
     font-family: 'Ubuntu';
     font-size: 20px;
     font-weight: 400;
 }
 
-.mensajeModal h3:after{
+.mensajeModal h3:after {
     content: '';
     display: block;
     width: 100%;
     height: 1px;
-    background:#C5C5C5 ;
+    background: #C5C5C5;
     margin: 10px 0px 15px;
 }
 
@@ -1211,11 +1256,11 @@ form.formContact input[type="button"]:hover{
     font-family: FontAwesome;
     font-size: 16px;
     color: #E25151;
-    margin-right:8px ;
+    margin-right: 8px;
 
 }
 
-.mensajeModal #btnClose{
+.mensajeModal #btnClose {
     display: inline-block;
     padding: 3px 10px;
     margin-top: 10px;
@@ -1226,6 +1271,7 @@ form.formContact input[type="button"]:hover{
 
 
 }
+
 /* FIN FORMULARIO CONTACTO */
 
 
