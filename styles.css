@@ -813,7 +813,7 @@ article div p {
 .marcarLD2 h5 {
     color: #fcb316;
     font-size: 14px;
-    padding-top: 30px;
+    padding-top: 0px;
     padding-bottom: 20px;
     font-weight: 400;
 }
@@ -829,10 +829,20 @@ article div p {
 
 }
 
+.marcarLD2 iframe{
+    position: relative;
+    overflow: hidden;
+}
+
 iframe {
     border-radius: 0px;
     text-align: center;
-    margin: 30px 5px;
+    margin: auto;
+    object-fit: cover;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -891,7 +901,7 @@ article div .proyectosh2{
 
 .home2 {
 
-    background-color: #e3dede;
+    background-color: #00abbe;
 }
 
 .proyectos p {
@@ -905,6 +915,8 @@ article div .proyectosh2{
 }
 
 .proyectos div img {
+    top:0;
+    left:0;
     width: 40px;
     padding-right: 5px;
 
