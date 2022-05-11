@@ -247,7 +247,7 @@ footer li a:hover {
 
 main {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 0px;
     padding-bottom: 20px;
     margin: 0;
     background-color: #ffffff;
@@ -325,8 +325,8 @@ main {
 
 .contenedor-hpc2 {
     overflow: hidden;
-    border: 0.5px solid #e0e0e0;
-    border-radius: 12px;
+    /*border: 0.5px solid #e0e0e0;
+    border-radius: 12px;*/
     background-color: #ffffff;
     width: 100%;
     height: 560px;
@@ -525,7 +525,7 @@ h5 {
 
 .threeCardContainer {
     overflow: hidden;
-    border-radius: 12px;
+    /*border-radius: 12px;*/
     width: 30%;
     margin: auto;
     background-color: #ffffff;
@@ -668,7 +668,7 @@ h5 {
 }*/
 
 article {
-    width: 50%;
+    width: 60%;
     margin: 5rem auto;
 }
 
@@ -685,7 +685,11 @@ article div {
 }
 
 article div p {
+    padding-right: 150px;
+    font-weight: 300;
     font-size: 20px;
+    margin: 0;
+    line-height: 28px;
     color: #044383;
 
 }
@@ -697,9 +701,12 @@ article div p {
 .segunda-lectura p {
 
 
+    padding-right: 50px;
+    margin: 2rem 0;
+    font-weight: 300;
     font-size: 16px;
-    line-height: 1.8;
-    color: #3d6072;
+    color: #5c727d;
+    line-height: 26px;
 
 }
 
@@ -749,17 +756,7 @@ article div p {
     margin: auto;
 }
 
-.banner2 {
 
-    width: 100%;
-    height: 530px;
-    position: relative;
-    overflow: hidden;
-    margin: 0px;
-    background-image: url("/image/proyectosycausas.png");
-    background-attachment: fixed;
-    filter: brightness(0.7);
-}
 
 
 /******************************************** INICIO LINK PROYECTOS Y CAUSAS *****************************************************/
@@ -771,7 +768,7 @@ article div p {
 
 
 
-/******************************************** FIN LINK PROYECTOS Y CAUSAS *****************************************************/
+
 .marcarLD{
     width: 100%;
     height: auto;
@@ -793,7 +790,7 @@ article div p {
 .marcarLD1{
     position: relative;
     margin: auto;
-    width: 65%;
+    width: 60%;
     display: flex;
 }
 
@@ -825,7 +822,7 @@ article div p {
 }
 
 iframe{
-    border-radius: 10px;
+    border-radius: 0px;
     text-align:center;
     margin: 30px 5px ;
 }
@@ -840,10 +837,36 @@ iframe{
 }
 
 
-.imagenfondo{
-    display: block;
-    position: relative;
-    width: 100%;
+/*---Areas de interesas---*/
+
+.areas{
+    width: 80%;
+    margin: 70px auto;
+    padding: 0;
+}
+
+.areas1{
+    margin-top: 15px;
+}
+
+.area2{
+    padding: 0;
+    overflow: hidden;
+}
+
+.area2 img{
+    padding: 0;
+    margin: auto;
+    transition: transform .2s;
+}
+
+.area2:hover img{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+}
+
+.areas h4{
+    color: #044383;
 }
 
 
@@ -851,8 +874,7 @@ iframe{
 
 
 
-
-
+/******************************************** FIN LINK PROYECTOS Y CAUSAS *****************************************************/
 
 
 
@@ -862,7 +884,7 @@ iframe{
 
 /******************************************** INICIO LINK CONTACTO *****************************************************/
 
-.formContainer {
+/* .formContainer {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
@@ -871,27 +893,20 @@ iframe{
     border: solid #cfd4d6;
     border-radius: 1rem;
 }
-
-
-
 .contactContainer {
     width: 304px;
     padding: 2rem;
 }
-
 .contactContainer h2 {
     margin: 0 0 2rem 0;
 }
-
 .contactContainer p {
     font-size: 1rem;
     margin: auto;
 }
-
 .contactNetContainer {
     margin: 1rem 0;
 }
-
 .formContainer form {
     display: flex;
     flex-wrap: wrap;
@@ -899,38 +914,31 @@ iframe{
     width: 45rem;
     margin: auto;
 }
-
 .formName {
     width: 20rem;
     margin: auto;
 }
-
 .formPhone {
     width: 20rem;
     margin: auto;
 }
-
 .formEmail {
     width: 40.3rem;
     margin: 1rem auto;
 }
-
 :hover.formName,
 :hover.formEmail,
 :hover.formPhone {
     background: #b5e1f3;
 }
-
 .message {
     width: 40.3rem;
     padding: 3rem;
     margin: 1rem auto;
 }
-
 :hover.message {
     background: #b5e1f3;
 }
-
 form .button {
     height: 60px;
     width: 176px;
@@ -939,26 +947,285 @@ form .button {
     border-radius: 81px;
     margin: auto;
 }
-
 form :hover.button {
     transition: all 1s;
     background: #b5e1f3;
 }
-
 .sectionMap {
     width: 100%;
 }
-
 .mapsContainer {
-    width: 100%;
+    width: 100%; 
+}*/
+
+.mapsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
 }
 
 .maps {
     width: 100%;
-    height: 532px;
+    height: 530px;
     margin: 0;
 }
 
+
+/*Contacto nuevo*/
+
+:focus{
+    outline: none;
+}
+
+/*formulario*/
+
+.formWrap {
+    width: 80%;
+    height: 530px;
+    margin: 50px auto;
+    display: flex;
+
+    background: #fff;
+    /*border-radius: 10px;*/
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*Informacion de contacto*/
+
+.contactInfo::before {
+    content:'';
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: #fcb316;;
+
+    opacity: 0.6;
+
+}
+
+
+.contactInfo{
+    width: 38%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    /* justify-content: center; */
+
+    background-image: url('./image/historia1.jpg');
+    background-size:cover ;
+    background-position: center center;
+}
+
+.infoTittle , .infoItems {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+
+}
+
+.infoTittle{
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.infoTittle h2{
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.infoItems{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 5px;
+}
+.infoItems p{
+    
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.infoItems p:nth-child(1) span{
+    font-size: 30px;
+
+    margin-right: 15px;
+    margin-left: 4px;
+}
+
+.infoItems p:nth-child(2) span{
+    font-size: 10px;
+    margin-right: 15px;
+    margin-left: 4px;
+}
+
+form.formContact {
+    width: 62%;
+    padding: 30px 40px;
+    margin: auto;
+}
+
+form.formContact h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+form.formContact .userInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+form.formContact label {
+    font-weight: 600;
+
+}
+
+
+
+.namePhone{
+    
+    display:flex;
+    flex-direction: row;
+}
+
+.namePhone div{
+    text-align: left;
+    margin: 0;
+}
+
+.formContact div div div{
+    margin: auto;
+
+}
+
+
+
+form.formContact input, form.formContact textarea, form.formContact div input {
+    width: 100%;
+    padding: 8px 0px 5px;
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+    margin-bottom: 20px;
+
+    font-family: 'Arial, Helvetica, sans-serif';
+    color: #5A5A5A;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+form.formContact textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+form.formContact input[type="button"]{
+    width: 180px;
+    background: #4091EC;
+    padding: 10px;
+    border: none;
+    /*border-radius: 25px;*/
+    
+    align-self: center;
+
+    color: #fff;
+    font-family: 'Open sans';
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+form.formContact input[type="button"]:hover{
+    transition: all 1s;
+    background: #b5e1f3;
+
+}
+
+/*Mensaje de error*/
+
+.modalWrap {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mensajeModal {
+    background: #FFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+}
+
+.mensajeModal h3{
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mensajeModal h3:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background:#C5C5C5 ;
+    margin: 10px 0px 15px;
+}
+
+.mensajeModal p {
+    font-size: 16px;
+    color: #606060;
+}
+
+.mensajeModal p:before {
+    content: "\food";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #E25151;
+    margin-right:8px ;
+
+}
+
+.mensajeModal #btnClose{
+    display: inline-block;
+    padding: 3px 10px;
+    margin-top: 10px;
+
+    background: #E35151;
+    color: 2px solid #B14141;
+    cursor: pointer;
+
+
+}
 /* FIN FORMULARIO CONTACTO */
 
 

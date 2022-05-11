@@ -56,36 +56,47 @@
                     width="" height=""></iframe>
             </div>
         </section>
-        <section id="sectionFormContacto">
-            <div class="formContainer">
-                <div class="contactContainer">
+        <section class="formWrap">
+            <section class="contactInfo">
+                <section class="infoTittle">
                     <h2>ROTARY TAPIALES</h2>
-                    <p>MARTA CRUXENT</p>
-                    <p>+54 9 11 6299-0500</p>
+                    <!-- <img src="image/Rotary-T-Logo-.png" alt=""> -->
+                </section>
+                <section class="infoItems">
+                    
                     <p>Los Nogales 1482, Tapiales</p>
                     <p>Provincia de Buenos Aires, Argentina.</p>
-                    <div class="contactNetContainer">
-                        <a href="https://www.facebook.com/pg/rotary.tapiales/photos/?ref=page_internal" class="facebook"
-                            alt="iconoFacebook"><img src="../image/icons/icons8-facebook-48.png" alt=""></a>
-                        <a href="https://www.instagram.com/rotary4905" class="" data-original-title=""><img
-                                src="../image/icons/icons8-instagram-48.png" alt=""></a>
+                    <!-- <p><span class="fa fa-envelope"></span> info.rotary@rotary.com.ar</p>
+                    <p><span class="fa fa-mobile"> </span>1124522351</p> -->
+                </section>
+            </section>
+    
+            <form action="" class="formContact">
+                <h2>Envia un mensaje</h2>
+                <div class="userInfo">
+                    <div class="namePhone">
+                        <div>
+                            <label for="name">Nombres: </label>
+                            <input type="text" id="name">
+                        </div>
+                        <div>
+                            <label for="phone">Telefono/Celular: </label>
+                            <input type="text" id="phone"  maxlength="">
+                        </div>
                     </div>
+                <label for="email">Correo electronico: </label>
+                <input type="text" id="email">
+    
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" ></textarea>
+    
+                    <input type="button" value="Enviar Mensaje" id="btnSend">
                 </div>
-
-
-                <form method="post">
-                    <input class="formName" type="text" name="contactName" placeholder=" Nombre completo" required>
-                    <input class="formPhone" type="text" name="contactPonhe" placeholder="Telefono" maxlength="10"
-                        required>
-                    <input class="formEmail" type="email" name="contactE-mail" placeholder="E-mail" required>
-                    <textarea class="message" name="contactMessage" placeholder=" Dejanos tu mensaje"></textarea>
-
-                    <input class="button" type="submit" value="Enviar">
-                </form>
-
-            </div>
-
+            </form>
         </section>
+        
+
+    </main>
 
 
     </main>
@@ -126,14 +137,14 @@
                 onmouseover="this.src='../image/icons/facebook-activado.png'"
                 onmouseout="this.src='../image/icons/facebook.png'"
                 ></a>
-            <a href="https://www.instagram.com/rotary4905" class="" data-original-title="">
+            <a href="https://www.instagram.com/rotarytapiales/" class="" data-original-title="">
                 <img alt="icono Instagram"
                     src="../image/icons/instagram.png" 
                     onmouseover="this.src='../image/icons/instagram-activado.png'"
                     onmouseout="this.src='../image/icons/instagram.png'" 
                     ></a>
             
-            <a href="https://www.youtube.com/channel/UCv2oAKwP5_9LiB5TdG2msBg" class="" data-original-title="">
+            <a href="https://www.youtube.com/channel/UCiaAy_06zb5Fdnewud1NNag" class="" data-original-title="">
                 <img
                     alt="icono YouTube" src="../image/icons/youtube.png" 
                     onmouseover="this.src='../image/icons/youtube-activado.png'"
