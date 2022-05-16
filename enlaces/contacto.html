@@ -17,38 +17,39 @@
 
 <body class=" bodyIndex bodySobreNosotros">
     <header>
-        <div class="divHeaderContainer">
-            <nav class="navbar navbar-expand">
-                <div class="container">
-                    <a class="logoRotary" href="../index.html"><img src="../image/Rotary-T-Logo-.png" alt=""></a>
-                    <div class=" navbar">
-                        <ul class="navbar-nav ulHeader">
-                            <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../enlaces/sobreNosotros.html">Sobre Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../enlaces/proyectoYCausas.html">Proyectos y Causas</a>
-                            </li>
-                            <li class="active nav-item">
-                                <a class="nav-link" href="../enlaces/contacto.html" tabindex="-1"
-                                    aria-disabled="true">Contacto</a>
-                            </li>
-                        </ul>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end buttonHeader">
-                            <button class="btnP " type="button">Donar dsdfsd</button>
-                            <button class="btnS" type="button">Unite</button>
-                        </div>
+            <nav class="navbar">
+                <a class="logoRotary" href="../index.html"><img src="../image/Rotary-T-Logo-.png" alt="logo"></a>
+                <input type="checkbox" id="toggler">
+                <label for="toggler"><i ><img src="/image/icons/menuHamburguesa.png" alt="" class="r1-menu-line imagen"></i></label>
+                
+                <div class=" navbar menu">
+                    <ul class="list">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../enlaces/sobreNosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../enlaces/proyectoYCausas.html">Proyectos y Causas</a>
+                        </li>
+                        <li class="active nav-item">
+                            <a class="nav-link" href="../enlaces/contacto.html" tabindex="-1"
+                                aria-disabled="true">Contacto</a>
+                        </li>
+                    </ul>
+                    <div class="hola d-grid gap-2 d-md-flex justify-content-md-end buttonHeader" id="giveOn">
+                        <button class="btnP " type="button">Donar</button>
+                        <button class="btnS" type="button">Unite</button>
                     </div>
                 </div>
+    
             </nav>
-        </div>
+
 
     </header>
 
-    <main>
+    <main class="mainFormulario ">
         
         <!-- <section id="sectionFormContacto">
             <div class="formContainer">
@@ -80,7 +81,7 @@
             </div>
 
         </section> -->
-        <section class="formWrap">
+        <section class="formWrap wrapper">
             <section class="contactInfo">
                 <section class="infoTittle">
                     <h2>ROTARY <br>TAPIALES</h2>
@@ -96,7 +97,7 @@
                 </section>
             </section>
     
-            <form action="send.php" method="post" class="formContact">
+            <form action="send.php" method="post" class="formContact wrapper">
                 <h2>Envia un mensaje</h2>
                 <div class="userInfo">
                     <div class="namePhone">
@@ -120,7 +121,7 @@
                 </div>
             </form>
         </section>
-        <section class="sectionMaps">
+        <section class="sectionMaps wrapper">
             <div class="mapsContainer">
                 <iframe class="maps"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410.0115704093143!2d-58.51054578531953!3d-34.7028452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccf2841d9b185%3A0x694721adfeb26bca!2sRotary%20Club%20de%20Tapiales!5e0!3m2!1ses-419!2sar!4v1649547397935!5m2!1ses-419!2sar"
@@ -196,7 +197,8 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
     <script src="../js/jquery-3.6.0.js"></script>
-    <script src="../js/script.js"></script>
+<!--     <script src="../js/script.js"></script> -->
+    <script src="../js/header.js"></script>
 
 </body>
 

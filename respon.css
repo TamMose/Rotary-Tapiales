@@ -7,12 +7,80 @@
     
 
 }
+/* Header*/
+
+
+.divHeaderContainer {
+    background: #ffffff;
+    width: 100%;
+    margin: 0%;
+
+    /* position: fixed; */
+}
+
+div.container {
+    padding: 0%;
+    width: 90%;
+
+
+}
+
+.logoRotary {
+    border-radius: 1rem;
+}
+
+/* .navbar-expand .navbar-nav .nav-link {
+    
+    color: #044383;
+} */
+
+/* .ulHeader {
+    width: 33rem;
+    justify-content: space-around;
+} */
+
+
+
+.btnP {
+    
+    background: #FFFFFF;
+    width: 140px;
+    padding: 0.4rem;
+    margin: 0 0 0 20px;
+    border-radius: 50px;
+    border: solid 1.5px #044383;
+    color: #044383;
+}
+
+.btnP:hover {
+    background: #044383;
+    color: #ffffff;
+    /*transition: all 1s;*/
+}
+
+.btnS {
+    font-family:Arial, Helvetica, sans-serif;
+    background: #fcb316;
+    width: 140px;
+    padding: 0.4rem;
+    margin: 0 0 0 10px;
+    border-radius: 50px;
+    border: solid 2px #fcb316;
+    color: #044383;
+}
+
+.btnS:hover {
+    background: none;
+    border: solid 2px #fcb316;
+    color: #fcb316;
+    /*transition: all 1s;*/
+}
 
 .navbar{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #fff;
     padding: 15px;
 }
@@ -22,7 +90,9 @@
     color: inherit;
     padding: 15PX;
 }
-
+.imagen{
+width:50px ;
+}
 .logo {
     margin-right: 50px;
 }
@@ -30,7 +100,25 @@
 .list {
     list-style: none;
     display: flex;
-    gap: 15px;
+    width: 33rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    color: #044383;
+}
+li:hover {
+    font-weight: bold;
+}
+
+li.active {
+    font-weight: bold;
+}
+
+#giveOff{
+    display: none;
+    width: 80%;
+    margin: 0;
 }
 
 #toggler,
@@ -38,6 +126,7 @@
     display: none;
 }
 
+/*Inicio de Header Responsive*/
 @media screen and (max-width: 500px) 
     {
         .menu{
@@ -68,8 +157,90 @@
         
         .buttonHeader,.gap-2, .d-md-flex, 
         .justify-content-md-end,
-        .hola {
+        .logoRotary,
+        #giveOn {
             display: none!important;
-            color: red;
+        }
+        #giveOff{
+            display: inherit;
+            width: 80%;
+            margin: 0;
         }
     }
+
+/**********Fin de Header Responsive***********/
+
+
+
+.divHeaderContainer {
+    background: #ffffff;
+    width: 100%;
+    margin: 0%;
+
+    /* position: fixed; */
+
+}
+
+div.container {
+    padding: 0%;
+    width: 90%;
+
+
+}
+
+.logoRotary {
+    border-radius: 1rem;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    
+    color: #044383;
+}
+
+.ulHeader {
+    width: 33rem;
+    justify-content: space-around;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+li.active {
+    font-weight: bold;
+}
+
+.btnP {
+    
+    background: #FFFFFF;
+    width: 140px;
+    padding: 0.4rem;
+    margin: 0 0 0 20px;
+    border-radius: 50px;
+    border: solid 1.5px #044383;
+    color: #044383;
+}
+
+.btnP:hover {
+    background: #044383;
+    color: #ffffff;
+    /*transition: all 1s;*/
+}
+
+.btnS {
+    font-family:Arial, Helvetica, sans-serif;
+    background: #fcb316;
+    width: 140px;
+    padding: 0.4rem;
+    margin: 0 0 0 10px;
+    border-radius: 50px;
+    border: solid 2px #fcb316;
+    color: #044383;
+}
+
+.btnS:hover {
+    background: none;
+    border: solid 2px #fcb316;
+    color: #fcb316;
+    /*transition: all 1s;*/
+}
