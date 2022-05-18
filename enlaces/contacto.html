@@ -12,6 +12,7 @@
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <title>Sobre Nosotros</title>
 </head>
 
@@ -20,8 +21,8 @@
             <nav class="navbar">
                 <a class="logoRotary" href="../index.html"><img src="../image/Rotary-T-Logo-.png" alt="logo"></a>
                 <input type="checkbox" id="toggler">
-                <label for="toggler"><i ><img src="/image/icons/menuHamburguesa.png" alt="" class="r1-menu-line imagen"></i></label>
-                
+                <!-- <label for="toggler"><i ><img src="/image/icons/menuHamburguesa.png" alt="" class="r1-menu-line imagen"></i></label> -->
+                <span class="navMenu" id="btnMenu"><i class="fas fa-bars"></i></span>
                 <div class=" navbar menu">
                     <ul class="list">
                         <li class="nav-item">
@@ -30,15 +31,19 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../enlaces/sobreNosotros.html">Sobre Nosotros</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../enlaces/proyectoYCausas.html">Proyectos y Causas</a>
+                        <li class="nav-item containerSubmenu">
+                            <a class="nav-link submenu-btn" href="#">Proyectos y Causas <i class="fas fa-chevron-down"></i></a>
+                            <ul class="submenu">
+                                <li class="nav-item"><a class="nav-link" href="../enlaces/proyectoYCausas.html">Toma acción</a></li>
+                                <li class="nav-item"><a class="nav-link" href="../enlaces/nuestrasCausas.html">Nuestras Causas</a></li>
+                            </ul>
                         </li>
                         <li class="active nav-item">
                             <a class="nav-link" href="../enlaces/contacto.html" tabindex="-1"
                                 aria-disabled="true">Contacto</a>
                         </li>
                     </ul>
-                    <div class="hola d-grid gap-2 d-md-flex justify-content-md-end buttonHeader" id="giveOn">
+                    <div class="buttonHeader" id="giveOn">
                         <button class="btnP " type="button">Donar</button>
                         <button class="btnS" type="button">Unite</button>
                     </div>
@@ -89,7 +94,6 @@
                 </section>
                 <section class="infoItems">
 
-                    <p>+54 9 11 6299-0500</p>
                     <p>Los Nogales 1482, Tapiales</p>
                     <p>Provincia de Buenos Aires, Argentina.</p>
                     <!-- <p><span class="fa fa-envelope"></span> info.rotary@rotary.com.ar</p>
@@ -196,8 +200,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
+
+    <!--     <script src="../js/script.js"></script> -->
     <script src="../js/jquery-3.6.0.js"></script>
-<!--     <script src="../js/script.js"></script> -->
+
     <script src="../js/header.js"></script>
 
 </body>

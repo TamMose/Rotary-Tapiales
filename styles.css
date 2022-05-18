@@ -88,6 +88,7 @@ header{
     
 }
 
+
 .wrapper
 {
     width: 90%;
@@ -218,6 +219,23 @@ li.active {
     display: none;
 }
 
+.nav-link{
+    display: block;
+}
+
+.submenu{
+    background: rgb(204, 201, 10);
+    padding-left: 50px;
+    list-style: none;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.navMenu{
+    display: none;
+}
+
 /*Inicio de Header Responsive*/
 @media screen and (max-width: 500px) 
     {
@@ -257,8 +275,8 @@ li.active {
         {
             display: none!important;
         }
-        #giveOff{
-            display: inherit;
+        #giveOn{
+            display: none;
             width: 80%;
             margin: 0;
         }
