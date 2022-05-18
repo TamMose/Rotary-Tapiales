@@ -373,7 +373,8 @@ main {
 
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+}
 
 @media screen and (max-width: 480px) {
 
@@ -586,6 +587,9 @@ main {
         margin: 30px 0px;
     }
 }
+@media only screen and (max-width: 768px) {}
+
+
 
 @media screen and (max-width: 480px) {
 
@@ -632,7 +636,7 @@ main {
     }
 }
 
-
+/*------FIN DE HPC Responsive-----*/
 
 
 
@@ -689,7 +693,7 @@ main {
     background-color: #fcb316;
 }
 
-
+/*------HEAD CARD Responsive-----*/
 
 @media screen and (max-width: 1800px) {
     .head-card {
@@ -714,7 +718,7 @@ main {
         width: 8%;
     }
 }
-
+@media only screen and (max-width: 768px) {}
 @media screen and (max-width: 480px) {
     .head-card {
         width: 100%;
@@ -740,6 +744,9 @@ main {
         width: 20%;
     }
 }
+
+
+/*------FIN DE HEAD CARD Responsive-----*/
 
 h1 {
 
@@ -913,11 +920,8 @@ h5 {
         margin: auto;
 
     }
-
-
-
-
 }
+@media only screen and (max-width: 768px) {}
 
 @media screen and (max-width: 480px) {
     .threeCard {
@@ -951,7 +955,7 @@ h5 {
 
     }
 }
-
+/*----------FIN DE THREECARD Responsive--------*/
 
 /*FIN SECTION THREECARD */
 /* FIN MAIN */
@@ -1109,7 +1113,7 @@ article div p {
         margin: auto;
     }
 }
-
+@media only screen and (max-width: 768px) {}
 @media screen and (max-width: 480px) {
     .container-amarillo {
         width: 100%;
@@ -1263,64 +1267,67 @@ article div .proyectosh2 {
 /*---Proyectos actuales---*/
 
 
-.home2 {
-
-    background-color: #00abbe;
-}
-
-.proyectos p {
-
-    padding-right: 50px;
-    margin: 1rem 0;
-    font-weight: 600;
-    font-size: 18px;
-    color: #044383;
-    line-height: 26px;
-}
-
-.proyectos div img {
-    top: 0;
-    left: 0;
-    width: 40px;
-    padding-right: 5px;
-
-}
 
 
 
-.proyectos1 {
-    position: relative;
+
+.proyectoR {
     width: 100%;
     height: auto;
-    overflow: hidden;
+    /*background-color: #337ab7;*/
     padding: 0;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+
+
 }
 
-.proyecto2 {
+
+
+.proyectoR1 {
+    position: relative;
+    margin: auto;
+    width: 100%;
     display: flex;
     padding: 0;
 }
 
-.newspaper {
-    column-count: 2;
-}
-
-.video-proyectos {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-
-
-.video-proyectos iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+.proyectoR2 {
+    display: block;
+    margin: 80px 0px;
+    padding: 20px;
     width: 100%;
-    height: 100%;
+
 }
+
+.proyectoR2 h5 {
+    color: #fcb316;
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.proyectoR2 p {
+
+    
+    padding: 25px 90px 0px 0px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    color: #5c727d;
+    line-height: 26px;
+
+}
+.proyectoR3{
+    display: block;
+    margin: 80px 0px;
+    padding: 0px;
+    width: 60%;
+}
+
+
 
 
 
@@ -1431,6 +1438,17 @@ main .nc0{
 
 }
 
+.nc2{
+    overflow: hidden;
+    width: 80%;
+    height: auto;
+}
+
+.nc2 ifreme{
+    width: 100%;
+}
+
+
 .nc1 .ncimg {
     
     width: auto;
@@ -1468,6 +1486,13 @@ main .nc0{
 
 }
 
+.nc1 h3{
+    color: #fcb316;
+}
+
+.nc1 .pnc{
+    font-size: 16px;
+}
 
 
 
