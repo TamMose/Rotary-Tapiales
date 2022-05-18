@@ -325,9 +325,9 @@ main {
 
 
 
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1800px) {
 
-.sectionCarousel {
+    .sectionCarousel {
 
         width: 100%;
         height: 845px;
@@ -335,15 +335,15 @@ main {
         overflow: hidden;
         margin: 0px;
     }
-    
-    
+
+
     .sectionCarousel img {
         width: 100%;
         height: 845px;
         object-fit: cover;
         text-align: center;
     }
-    
+
     div.textoCarousel {
         position: absolute;
         top: 15rem;
@@ -352,42 +352,45 @@ main {
         width: 942px;
         height: 25rem;
     }
-    
+
     .textoCarousel h1 {
-    
+
         font-size: 75px;
         margin: 0px 20px 20px 0px;
     }
+
     .textoCarousel p {
         font-weight: 400;
         line-height: 45px;
         font-size: 40px;
         margin: 0;
     }
-    
-    
+
+
     .textoCarousel button {
         margin-top: 60px;
-    } 
-    
+    }
+
 }
 
 @media only screen and (max-width: 768px) {}
 
 @media screen and (max-width: 480px) {
 
-.sectionCarousel {
+    .sectionCarousel {
 
         width: 100%;
         height: 700px;
         margin: 0px;
     }
+
     .sectionCarousel img {
         width: auto;
         height: 100%;
         object-fit: cover;
         text-align: center;
     }
+
     div.textoCarousel {
         position: absolute;
         margin: auto;
@@ -396,13 +399,14 @@ main {
         width: 100%;
         height: auto;
     }
+
     .textoCarousel h1 {
-    
+
         font-size: 50px;
         text-align: left;
         margin: 0px 2px 2px 0px;
     }
-    
+
     .textoCarousel p {
         width: 350px;
         font-weight: 500;
@@ -410,11 +414,12 @@ main {
         line-height: 34px;
         margin: 50px 0px;
     }
+
     .textoCarousel button {
         margin-top: 40px;
-    
-    
-    } 
+
+
+    }
 }
 
 /*----------------FIN Banner Responsive--------------*/
@@ -422,10 +427,14 @@ main {
 
 /*FIN SECTIONS CAROUSEL */
 /*INICIO SECTION HISTORY AND CAUSE */
+
+
+
 .contenedor-hpc {
     position: relative;
     margin: auto;
     width: 65%;
+    z-index: 2;
 
 
 }
@@ -533,7 +542,7 @@ main {
 
 /*------HPC Responsive-----*/
 
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1800px) {
 
     .contenedor-hpc {
         position: relative;
@@ -552,6 +561,7 @@ main {
         display: flex;
         flex-direction: row;
     }
+
     .contenedor-hpc3 {
 
         width: 100%;
@@ -559,22 +569,25 @@ main {
         margin: 1rem 1rem;
         padding: 0px 50px;
     }
+
     .contenedor-hpc4 {
 
         overflow: hidden;
         width: 100%;
         margin: 0;
     }
+
     .card-text {
         padding-right: 50px;
         margin: 2rem 0;
     }
+
     .cardButton {
         margin: 30px 0px;
     }
-    }
+}
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
 
     .contenedor-hpc {
         position: relative;
@@ -582,6 +595,7 @@ main {
         width: 100%;
         height: auto;
     }
+
     .contenedor-hpc2 {
         overflow: hidden;
         width: 100%;
@@ -591,6 +605,7 @@ main {
         flex-direction: column;
         flex-wrap: wrap;
     }
+
     .contenedor-hpc3 {
 
         width: 100%;
@@ -598,6 +613,7 @@ main {
         margin: 0;
         padding: 25px;
     }
+
     .contenedor-hpc4 {
 
         overflow: hidden;
@@ -605,14 +621,16 @@ main {
         text-align: center;
         padding: 15px 25px;
     }
+
     .card-text {
         padding-right: 0px;
         margin: 2rem 0;
     }
+
     .cardButton {
         margin: 8px 0px;
     }
-    }
+}
 
 
 
@@ -673,45 +691,51 @@ main {
 
 
 
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1800px) {
     .head-card {
         width: 70%;
         margin: 5rem auto;
     }
+
     .head-card h4 {
-        
+
         margin: 20px auto;
         width: 40%;
         font-size: 18px;
 
     }
+
     .head-card h1 {
         font-size: 42px;
         margin-top: 60px;
     }
+
     .linea-corta {
         width: 8%;
     }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .head-card {
         width: 100%;
         margin: 30px auto;
     }
+
     .head-card h4 {
         margin: 0%;
         padding: 24px;
         width: 100%;
         font-size: 18px;
     }
+
     .head-card h1 {
         text-align: center;
         font-size: 32px;
-        
-        padding:  auto;
+
+        padding: auto;
         font-weight: 700;
     }
+
     .linea-corta {
         width: 20%;
     }
@@ -860,69 +884,71 @@ h5 {
 
 /*----------THREECARD Responsive--------*/
 
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1800px) {
     .threeCard {
         width: 70%;
         margin: 5rem auto;
-        display: flex;}
-    
-        .threeCardContainer {
-            overflow: hidden;
-            width: 30%;
-            margin: auto;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-        
-        .threeCardContainer2 {
-        
-            padding: 0;
-            margin: auto;
-            height: 38rem;
-        
-        
-        }
-        
-        .threeCardContainer3 {
-            border-top: 5px solid #044383;
-            padding: 40px;
-            margin: auto;
-        
-        }
+        display: flex;
+    }
+
+    .threeCardContainer {
+        overflow: hidden;
+        width: 30%;
+        margin: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .threeCardContainer2 {
+
+        padding: 0;
+        margin: auto;
+        height: 38rem;
+
+
+    }
+
+    .threeCardContainer3 {
+        border-top: 5px solid #044383;
+        padding: 40px;
+        margin: auto;
+
+    }
 
 
 
-    
+
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .threeCard {
         width: 100%;
         margin: auto;
         display: flex;
         flex-direction: column;
-    } 
+    }
+
     .threeCardContainer {
         overflow: hidden;
         width: 90%;
-        margin: 20px auto ;
+        margin: 20px auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
-    
+
     .threeCardContainer2 {
-    
+
         padding: 0;
         margin: auto;
         height: 35rem;
-    
-    
+
+
     }
-    
+
     .threeCardContainer3 {
         border-top: 5px solid #044383;
         padding: 20px;
         margin: auto;
-    
+
     }
 }
 
@@ -975,7 +1001,7 @@ h5 {
 }*/
 
 article {
-    width: 60%;
+    width: 70%;
     margin: 4rem auto 0 auto;
 }
 
@@ -984,7 +1010,7 @@ h2 {
     padding-bottom: 30px;
     padding-top: 50px;
     font-size: 50px;
-    
+
 
 }
 
@@ -1067,15 +1093,15 @@ article div p {
 
 /*-----Container-amrillo Responsive-----*/
 
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1800px) {
     .container-amarillo {
         width: 100%;
         height: auto;
         padding: 8rem 5rem 8rem 5rem;
         margin: auto;
-        
+
     }
-    
+
     .container-amarillo p {
         width: 70%;
         font-size: 2rem;
@@ -1084,20 +1110,20 @@ article div p {
     }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .container-amarillo {
         width: 100%;
         height: auto;
         padding: 35px 25px;
-        margin: 5px auto ;
-        
+        margin: 5px auto;
+
     }
-    
+
     .container-amarillo p {
         width: 100%;
         font-size: 15px;
         font-weight: 600;
-        margin:0px;
+        margin: 0px;
     }
 }
 
@@ -1304,12 +1330,12 @@ article div .proyectosh2 {
 /*---galeria-----*/
 
 
-.galeria{
+.galeria {
     width: 100%;
     padding-bottom: 0px;
 }
 
-.galeria h5{
+.galeria h5 {
     color: #fcb316;
     font-size: 14px;
     padding-top: 0px;
@@ -1318,18 +1344,18 @@ article div .proyectosh2 {
 }
 
 .galeria div {
-    
+
     width: 100px;
 }
 
-div .caja{
-  position: relative;
-  width: 100%;
-  text-align: center;
-  overflow: hidden;
+div .caja {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
 }
 
-.col-sm{
+.col-sm {
     padding: 5px;
     padding-bottom: 10px;
     width: auto;
@@ -1338,13 +1364,14 @@ div .caja{
     object-fit: cover;
 }
 
-.caja img{
+.caja img {
     width: auto;
     height: 100%;
     object-fit: cover;
-    padding:  0px;
+    padding: 0px;
 }
-div .row{
+
+div .row {
     padding: 0px;
 }
 
@@ -1363,6 +1390,83 @@ div .row{
 /******************************************** FIN LINK PROYECTOS Y CAUSAS *****************************************************/
 
 
+
+
+/******************************************** NUESTRAS CAUSAS *****************************************************/
+
+.tilde {
+    top: 0;
+    left: 0;
+    width: 40px;
+    padding-right: 5px;
+}
+
+
+.texto-historia p {
+
+    padding-bottom: 50px;
+}
+
+main .nc0{
+    margin: auto; 
+    position: relative;
+    width: 100%;
+}
+
+.nc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #337ab7;
+    margin: auto;
+}
+
+.nc1 {
+    
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+
+.nc1 .ncimg {
+    
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    object-fit: cover;
+}
+
+.nc1 h5 {
+    font-size: 16px;
+    color: #044383;
+}
+
+.nc1 h1 {
+    color: #fcb316;
+    font-size: 60px;
+    margin: 40px 0px;
+}
+
+.nc1 p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.nc1 div {
+    padding: 60px 80px;
+    width: 100%;
+    background-color: #337ab7;
+}
+
+.nc1 button {
+    margin: 40px 0px;
+    width: 190px;
+    font-size: 25px;
+
+}
 
 
 
@@ -1733,22 +1837,16 @@ form.formContact input[type="button"]:hover {
         margin: 1rem auto 0 auto;
     }
 
-    
+
 
 }
 
 
-@media only screen and (max-width: 1800px){
+@media only screen and (max-width: 1800px) {
 
     article {
         width: 60%;
         margin: 4rem auto 0 auto;
     }
-    
+
 }
-
-
-
-
-
-
