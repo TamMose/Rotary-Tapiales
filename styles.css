@@ -13,9 +13,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -236,6 +233,58 @@ footer li a:hover {
 }
 
 
+
+@media (max-width:576px){
+    .footerContainer1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: rgb(87, 87, 81);
+
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+        background: #5A5A5A;
+
+    }
+    footer li a{
+        font-size: 15px;
+    }
+    .cantainerLogos{
+        display: none;
+    }
+    .redes{
+        display: flex;
+        background: white;
+        width: 100%;
+        align-items: center;
+        align-self: center;
+
+    }
+    .redes a{
+        background: red;
+        height: 100px;
+        align-items: center;
+
+    }
+
+    .face{
+        background: black;
+        height: 50px;
+        width: 500px;
+    }
+    .redes a img{
+        background: green;
+        height: 50px;
+        width: 500px;
+        padding: 10px;
+    }
+}
 
 /* FIN FOOTER */
 
@@ -1578,14 +1627,39 @@ form :hover.button {
     align-items: center;
     justify-content: center;
     border-radius: 0;
+    max-width: 300em;
 }
 
 .maps {
     width: 100%;
-    height: 530px;
+    height: 33em;
     margin: 0;
 }
+@media (max-width:1200px){
+    body{
+        font-size: 14px;
+    }
+}
+@media (max-width:768px){
+    .mapsContainer{
+        width: 100%;
+    }
 
+    .maps{
+        width: 100%;
+        height: 20em;
+        }
+    }
+@media (max-width:576px){
+    .mapsContainer{
+        width: 100%;
+    }
+
+    .maps{
+        width: 100%;
+        height: 15em;
+        }
+    }
 
 /*Contacto nuevo*/
 
@@ -1654,13 +1728,13 @@ form :hover.button {
     height: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 
 .infoTittle h2 {
     font-size: 35px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .infoItems {
@@ -1697,12 +1771,13 @@ form.formContact {
     width: 62%;
     padding: 30px 40px;
     margin: auto;
+    color: #044383;
+    
 }
 
 form.formContact h2 {
     font-size: 25px;
     font-weight: 600;
-    color: #303030;
     margin-bottom: 30px;
 }
 
@@ -1729,10 +1804,10 @@ form.formContact label {
     margin: 0;
 }
 
-.formContact div div div {
+/* .formContact div div div {
     margin: auto;
 
-}
+} */
 
 
 
@@ -1773,6 +1848,7 @@ form.formContact input[type="button"] {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    margin-top: 10px;
 
 }
 
@@ -1780,6 +1856,45 @@ form.formContact input[type="button"]:hover {
     transition: all 1s;
     background: #b5e1f3;
 
+}
+
+@media (max-width:576px){
+    .formWrap{
+        display:flex ;
+        flex-direction: column;
+        border: 3px solid red;
+        width: 90%;
+    }
+    .contactInfo{
+        width: 100%;
+        display: none;
+    }
+    .infoItems{
+        display: none;
+    }
+    .infoTittle h2{
+        margin: 0;
+        padding-bottom: 0;
+        font-weight: 700;
+
+    }
+    form.formContact{
+        width: 100%;
+        border: 3px solid white;
+       /*  padding: 0; */
+       padding-top: 10PX;
+    }
+    .namePhone{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    form.formContact h2{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top:0 ;
+    }
 }
 
 /*Mensaje de error*/
