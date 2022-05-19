@@ -1409,10 +1409,19 @@ div .row {
 }
 
 
-.texto-historia p {
 
+
+.texto-historia p {
+    
     padding-bottom: 50px;
 }
+
+.texto-historia div iframe{
+    height: 590px;
+    width: 100%;
+}
+
+
 
 main .nc0{
     margin: auto; 
