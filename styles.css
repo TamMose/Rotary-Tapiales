@@ -1007,6 +1007,7 @@ h5 {
 article {
     width: 70%;
     margin: 4rem auto 0 auto;
+    padding: 0px;
 }
 
 h2 {
@@ -1033,7 +1034,7 @@ article div p {
 }
 
 .segunda-lectura {
-    padding: 0px 0px 50px 230px;
+    padding: 0px 0px 50px 235px;
 }
 
 .segunda-lectura p {
@@ -1146,7 +1147,6 @@ article div p {
 .marcarLD {
     width: 100%;
     height: auto;
-    /*background-color: #337ab7;*/
     padding: 0;
     position: relative;
     margin: auto;
@@ -1417,10 +1417,13 @@ div .row {
 }
 
 .texto-historia div iframe{
+    padding: 0px;
     height: 590px;
     width: 100%;
 }
-
+.texto-historia div{
+    padding: 0px; 
+}
 
 
 main .nc0{
