@@ -1005,7 +1005,7 @@ h5 {
 }*/
 
 article {
-    width: 70%;
+    width: 65%;
     margin: 4rem auto 0 auto;
     padding: 0px;
 }
@@ -1052,18 +1052,22 @@ article div p {
 
 
 .img-sn {
-    padding: 0px 0px 0px 150px;
+    padding: 0px 0px 0px 0px;
 }
 
 .img-sn1 {
+    overflow: hidden;
     padding: 0px;
 }
 
 .img-sn2 {
+    overflow: hidden;
     padding: 0px;
 }
 
 .img-sn1 img {
+    width: auto;
+    height: 100%;
     object-fit: cover;
     padding: 5px;
 }
@@ -1249,6 +1253,7 @@ article div .proyectosh2 {
 }
 
 .area2 img {
+    
     padding: 0px;
     margin: auto;
     transition: transform .2s;
@@ -1413,7 +1418,7 @@ div .row {
 
 .texto-historia p {
     
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .texto-historia div iframe{
