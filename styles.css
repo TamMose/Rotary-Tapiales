@@ -370,10 +370,6 @@ main {
 
 /*----------------Banner Responsive--------------*/
 
-
-
-
-
 @media screen and (max-width: 1800px) {
 
     .sectionCarousel {
@@ -422,10 +418,58 @@ main {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 961px) {
+
+
+.sectionCarousel {
+
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
 }
 
-@media screen and (max-width: 480px) {
+
+.sectionCarousel img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    text-align: center;
+}
+
+div.textoCarousel {
+    position: absolute;
+    top: 8rem;
+    left: 90px;
+
+    width: 85%;
+    height: auto;
+}
+
+.textoCarousel h1 {
+
+    font-size: 75px;
+    margin: 0px 0px 20px 0px;
+}
+
+.textoCarousel p {
+    font-weight: 400;
+    line-height: 48px;
+    font-size: 40px;
+    padding: 20px 0px ;
+}
+
+
+.textoCarousel button {
+    margin-top: 40px;
+}
+
+}
+
+
+
+@media screen and (max-width:700px) {
 
     .sectionCarousel {
 
@@ -443,10 +487,10 @@ main {
 
     div.textoCarousel {
         position: absolute;
-        margin: auto;
+        margin: 0px;
         top: 60px;
         left: 30px;
-        width: 100%;
+        width: 85%;
         height: auto;
     }
 
@@ -458,11 +502,12 @@ main {
     }
 
     .textoCarousel p {
-        width: 350px;
+        width: 100%;
         font-weight: 500;
         font-size: 24px;
         line-height: 34px;
-        margin: 50px 0px;
+        margin: 0px;
+        padding: 50px 0px;
     }
 
     .textoCarousel button {
@@ -471,6 +516,12 @@ main {
 
     }
 }
+
+
+
+
+
+
 
 /*----------------FIN Banner Responsive--------------*/
 
@@ -602,11 +653,9 @@ main {
 
     .contenedor-hpc2 {
         overflow: hidden;
-        /*border: 0.5px solid #e0e0e0;
-        border-radius: 12px;*/
         background-color: #ffffff;
         width: 100%;
-        height: 560px;
+        height: 100%;
         margin: 5rem auto;
         display: flex;
         flex-direction: row;
@@ -615,7 +664,7 @@ main {
     .contenedor-hpc3 {
 
         width: 100%;
-        height: auto;
+        height: 100%;
         margin: 1rem 1rem;
         padding: 0px 50px;
     }
@@ -636,11 +685,53 @@ main {
         margin: 30px 0px;
     }
 }
-@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 961px) {
+    .contenedor-hpc {
+        position: relative;
+        margin: auto;
+        width: 90%;
+        height: 100%;
+    }
+
+    .contenedor-hpc2 {
+        overflow: hidden;
+        background-color: #ffffff;
+        width: 100%;
+        height: 100%;
+        margin: 5rem auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedor-hpc3 {
+
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+        margin: 0px;
+        padding: 0px 30px;
+    }
+
+    .contenedor-hpc4 {
+
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+    }
+
+    .card-text {
+        padding-right: 0px;
+        margin: 2rem 0;
+    }
+
+    .cardButton {
+        margin: 20px 0px;
+    }
+}
 
 
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width:700px) {
 
     .contenedor-hpc {
         position: relative;
@@ -661,10 +752,10 @@ main {
 
     .contenedor-hpc3 {
 
-        width: 100%;
+        width: 90%;
         height: auto;
-        margin: 0;
-        padding: 25px;
+        margin: 0px 20px;
+        
     }
 
     .contenedor-hpc4 {
@@ -685,23 +776,17 @@ main {
     }
 }
 
+
+
+
+
+
 /*------FIN DE HPC Responsive-----*/
 
 
 
 /*FIN SECTION HISTORY AND CAUSE */
-/*INICIO SECTION THEMISSION */
-.theMission {
-    margin: 10rem 0;
-}
 
-.theMissionH2Container {
-    text-align: center;
-    margin: auto;
-
-}
-
-/*FIN SECTION THEMISSION */
 /*INICIO SECTION THREECARD */
 
 .head-card {
@@ -767,8 +852,30 @@ main {
         width: 8%;
     }
 }
-@media only screen and (max-width: 768px) {}
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 961px) {
+    .head-card {
+        width: 100%;
+        margin: 3rem auto;
+    }
+
+    .head-card h4 {
+
+        margin:  auto;
+        width: 40%;
+        font-size: 18px;
+
+    }
+
+    .head-card h1 {
+        font-size: 42px;
+        margin-top: 60px;
+    }
+
+    .linea-corta {
+        width: 8%;
+    }
+}
+@media screen and (max-width: 700px) {
     .head-card {
         width: 100%;
         margin: 30px auto;
@@ -965,34 +1072,57 @@ h5 {
 
     .threeCardContainer3 {
         border-top: 5px solid #044383;
-        padding: 40px;
+        padding: 30px;
         margin: auto;
 
     }
-}
-@media only screen and (max-width: 768px) {}
+    
 
-@media screen and (max-width: 480px) {
+.threeCardContainer h5 {
+    color: #337ab7;
+    padding-bottom: 10PX;
+    font-size: 11px;
+    text-transform: uppercase;
+
+}
+
+
+
+.threeCardContainer h3 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: #044383;
+}
+
+
+
+.threeCardContainer p {
+    margin: 2rem 0;
+    font-weight: 300;
+    font-size: 16px;
+    color: #5c727d;
+}
+}
+@media only screen and (max-width: 961px) {
     .threeCard {
-        width: 100%;
-        margin: auto;
+        width: 90%;
+        margin: 40px auto  ;
         display: flex;
-        flex-direction: column;
     }
 
     .threeCardContainer {
         overflow: hidden;
-        width: 90%;
-        margin: 20px auto;
+        width: 32%;
+        margin: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-
 
     .threeCardContainer2 {
 
         padding: 0;
         margin: auto;
-        height: 35rem;
+        height: 32rem;
 
 
     }
@@ -1001,8 +1131,96 @@ h5 {
         border-top: 5px solid #044383;
         padding: 20px;
         margin: auto;
+    }
+
+    
+
+.threeCardContainer h5 {
+    color: #337ab7;
+    padding-bottom: 10PX;
+    font-size: 11px;
+    text-transform: uppercase;
+
+}
+
+
+
+.threeCardContainer h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #044383;
+}
+
+
+.threeCardContainer p {
+    margin: 2rem 0;
+    font-weight: 300;
+    font-size: 12px;
+    color: #5c727d;
+}
+}
+
+@media screen and (max-width: 700px) {
+    .threeCard {
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .threeCardContainer {
+        overflow: hidden;
+        width: 90%;
+        height: 100%;
+        margin: 20px auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+    .threeCardContainer2 {
+        height: 100%;
+        padding: 0;
+        margin: auto;
+        
+
 
     }
+
+    .threeCardContainer3 {
+        border-top: 5px solid #044383;
+        padding: 20px;
+        margin: auto;
+        height: 100%;
+
+    }
+
+    
+
+.threeCardContainer h5 {
+    color: #337ab7;
+    padding-bottom: 10PX;
+    font-size: 11px;
+    text-transform: uppercase;
+
+}
+
+
+.threeCardContainer h3 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: #044383;
+}
+
+
+
+.threeCardContainer p {
+    margin: 2rem 0;
+    font-weight: 300;
+    font-size: 16px;
+    color: #5c727d;
+}
 }
 /*----------FIN DE THREECARD Responsive--------*/
 
@@ -1054,8 +1272,9 @@ h5 {
 }*/
 
 article {
-    width: 70%;
+    width: 65%;
     margin: 4rem auto 0 auto;
+    padding: 0px;
 }
 
 h2 {
@@ -1082,7 +1301,7 @@ article div p {
 }
 
 .segunda-lectura {
-    padding: 0px 0px 50px 230px;
+    padding: 0px 0px 50px 235px;
 }
 
 .segunda-lectura p {
@@ -1097,21 +1316,120 @@ article div p {
 
 }
 
+@media screen and (max-width: 1800px){
+    article {
+    width: 65%;
+    margin: 4rem auto 0 auto;
+    padding: 0px;
+}
 
+h2 {
+    color: #044383;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    font-size: 50px;
+
+
+}
+
+article div {
+    padding-bottom: 50px;
+}
+
+article div p {
+    padding-right: 150px;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    line-height: 28px;
+    color: #044383;
+
+}
+
+
+}
+@media screen and (max-width: 961px){
+    article {
+        width: 90%;
+        margin: 4.5rem auto ;
+        padding: 0px;
+    }
+    
+    h2 {
+        color: #044383;
+        padding-bottom: 30px;
+        padding-top: 50px;
+        font-size: 50px;
+    
+    
+    }
+    
+    article div {
+        padding-bottom: 50px;
+    }
+    
+    article div p {
+        padding-right: 0px;
+        font-weight: 300;
+        font-size: 18px;
+        margin: 0;
+        line-height: 28px;
+        color: #044383;
+    
+    }
+    
+
+}
+@media screen and (max-width: 700px){
+    article {
+        width: 100%;
+        margin: 0px;
+        padding: 30px;
+    }
+    
+    h2 {
+        color: #044383;
+        padding-bottom: 30px;
+        padding-top: 50px;
+        font-size: 50px;
+    
+    
+    }
+    
+    article div {
+        padding-bottom: 50px;
+    }
+    
+    article div p {
+        padding-right: 0px;
+        font-weight: 300;
+        font-size: 15px;
+        margin: 0;
+        line-height: 20px;
+        color: #044383;
+    
+    }
+    
+
+}
 
 .img-sn {
-    padding: 0px 0px 0px 150px;
+    padding: 0px 0px 0px 0px;
 }
 
 .img-sn1 {
+    overflow: hidden;
     padding: 0px;
 }
 
 .img-sn2 {
+    overflow: hidden;
     padding: 0px;
 }
 
 .img-sn1 img {
+    width: auto;
+    height: 100%;
     object-fit: cover;
     padding: 5px;
 }
@@ -1146,7 +1464,7 @@ article div p {
 
 /*-----Container-amrillo Responsive-----*/
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1281px) {
     .container-amarillo {
         width: 100%;
         height: auto;
@@ -1162,8 +1480,24 @@ article div p {
         margin: auto;
     }
 }
-@media only screen and (max-width: 768px) {}
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 961px) {
+    .container-amarillo {
+        width: 100%;
+        height: auto;
+        padding: 4rem 2rem 4rem 2rem;
+        margin: 0px;
+
+    }
+
+    .container-amarillo p {
+        width: 85%;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
     .container-amarillo {
         width: 100%;
         height: auto;
@@ -1195,7 +1529,6 @@ article div p {
 .marcarLD {
     width: 100%;
     height: auto;
-    /*background-color: #337ab7;*/
     padding: 0;
     position: relative;
     margin: auto;
@@ -1283,7 +1616,7 @@ article div .proyectosh2 {
 }
 
 .areas {
-    width: 80%;
+    width: 100%;
     margin: 70px auto;
     padding: 0;
 }
@@ -1298,6 +1631,7 @@ article div .proyectosh2 {
 }
 
 .area2 img {
+    
     padding: 0px;
     margin: auto;
     transition: transform .2s;
@@ -1458,18 +1792,19 @@ div .row {
 }
 
 
-
-
-.texto-historia p {
+p {
     
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .texto-historia div iframe{
+    padding: 0px;
     height: 590px;
     width: 100%;
 }
-
+.texto-historia {
+    padding: 0px; 
+}
 
 
 main .nc0{
@@ -1979,23 +2314,3 @@ form.formContact input[type="button"]:hover {
 
 /*----------------Responsive--------------*/
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-
-    article {
-        width: 90%;
-        margin: 1rem auto 0 auto;
-    }
-
-
-
-}
-
-
-@media only screen and (max-width: 1800px) {
-
-    article {
-        width: 60%;
-        margin: 4rem auto 0 auto;
-    }
-
-}
