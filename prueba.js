@@ -5,13 +5,21 @@ btnMenu.addEventListener("click", function(){
     menu.classList.toggle("mostrar");
 })
 
-const submenuBtn= document.querySelectorAll(".submenu-btn");
+const subMenuBtn= document.querySelectorAll(".submenu-btn");
+for(let i=0; i < subMenuBtn.length; i++){
+    subMenuBtn[i].addEventListener("click", function(){
+        if(window.innerWidth <1024){
+            const submenu = this.nextElementSibling;
+            const height= submenu.scrollHeihgt;
+            /* if(submenu.classList.contains("desplegar")){
+                submenu.classList.remove("desplegar");
+                submenu.removeAttribute("style");
 
-for(let i=0; i<submenuBtn.length; i++){
-    submenuBtn[i].addEventListener("click", function(){
-        if(window.innerWidth<1024){
-            const subMenu = this.nextElementSibling;
-            const height= subMenu.scroll
+            }else { */
+                submenu.classList.add("desplegar");
+                submenu.style.height= height+"px";
+            
         }
-    })
+    });
 }
+
