@@ -1264,7 +1264,8 @@ img.portada  {
     
     }
 }
-@media screen and (max-width: 961px){.banner {
+@media screen and (max-width: 961px){
+    .banner {
 
     width: 100%;
     height: 400px;
@@ -1393,6 +1394,7 @@ article div p {
     line-height: 26px;
 
 }
+/*--------Responsive Articles--------*/
 
 @media screen and (max-width: 1800px){
     article {
@@ -1542,7 +1544,7 @@ article div p {
 
 /*-----Container-amrillo Responsive-----*/
 
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1800px) {
     .container-amarillo {
         width: 100%;
         height: auto;
@@ -1575,7 +1577,7 @@ article div p {
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 700px) {
     .container-amarillo {
         width: 100%;
         height: auto;
@@ -1680,6 +1682,217 @@ iframe {
     height: 4px;
     width: 100px;
     background-color: #fcb316;
+}
+
+/*--- Responsive marcar---*/
+@media screen and (max-width: 1800px){
+    .marcarLD {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+    
+    
+    }
+    
+    .marcarLD1 {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        display: flex;
+        padding: 0;
+    }
+    
+    .marcarLD2 {
+        display: block;
+        margin: 80px 0px;
+        padding: 0px;
+        width: 100%;
+    
+    }
+    
+    .marcarLD2 h5 {
+        font-size: 14px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .marcarLD2 p {
+        padding: 25px 90px 0px 0px;
+        font-size: 20px;
+        margin: 0;
+        line-height: 26px;
+    
+    }
+    
+    .marcarLD2 iframe {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    iframe {
+        border-radius: 0px;
+        text-align: center;
+        margin: auto;
+        object-fit: cover;
+        top: 5px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .linea-left {
+        margin: 20px 0px;
+        text-align: left;
+        border-radius: 5px;
+        height: 4px;
+        width: 100px;
+        background-color: #fcb316;
+    }
+    
+}
+@media screen and (max-width: 961px){
+    .marcarLD {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+    
+    
+    }
+    
+    .marcarLD1 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .marcarLD2 {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    
+    }
+    
+    .marcarLD2 h5 {
+        font-size: 14px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .marcarLD2 p {
+        padding: 0px;
+        font-size: 20px;
+        margin: 0;
+        line-height: 26px;
+    
+    }
+    
+    .marcarLD2 iframe {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 450px;
+        padding-top: 60px;
+    }
+    
+    iframe {
+        border-radius: 0px;
+        text-align: center;
+        margin: auto;
+        object-fit: cover;
+        top: 5px;
+        left: 0;
+        
+    
+    }
+    
+    .linea-left {
+        margin: 20px 0px;
+        text-align: left;
+        border-radius: 5px;
+        height: 4px;
+        width: 100px;
+        background-color: #fcb316;
+    }
+}
+@media screen and (max-width: 700px){
+    .marcarLD {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    
+    .marcarLD1 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .marcarLD2 {
+        display: block;
+        margin: 0px 0px;
+        padding: 0px;
+        width: 100%;
+    
+    }
+    
+    .marcarLD2 h5 {
+        font-size: 14px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .marcarLD2 p {
+        padding: 0px;
+        font-size: 16px;
+        margin: 0;
+        line-height: 24px;
+    
+    }
+    
+    .marcarLD2 iframe {
+        position: relative;
+        overflow: hidden;
+        padding-top: 30px;
+        width: 100%;
+        height: 230px;
+    }
+    
+    iframe {
+        border-radius: 0px;
+        text-align: center;
+        margin: 0px ;
+        object-fit: cover;
+        
+    
+    }
+    
+    .linea-left {
+        margin: 20px 0px;
+        text-align: left;
+        border-radius: 5px;
+        height: 4px;
+        width: 100px;
+        background-color: #fcb316;
+    }
 }
 
 
@@ -1965,7 +2178,242 @@ main .nc0{
     font-size: 16px;
 }
 
+/*--------Responsive nc--------*/
+@media screen and (max-width: 1800px){
+    
 
+.nc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #337ab7;
+    margin: auto;
+}
+
+.nc1 {
+    
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+
+.nc2{
+    overflow: hidden;
+    width: 80%;
+    height: auto;
+}
+
+.nc2 ifreme{
+    width: 100%;
+}
+
+
+.nc1 .ncimg {
+    
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    object-fit: cover;
+}
+
+.nc1 h5 {
+    font-size: 16px;
+    color: #044383;
+}
+
+.nc1 h1 {
+    color: #fcb316;
+    font-size: 60px;
+    margin: 40px 0px;
+}
+
+.nc1 p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.nc1 div {
+    padding: 60px 80px;
+    width: 100%;
+    background-color: #337ab7;
+}
+
+.nc1 button {
+    margin: 40px 0px;
+    width: 190px;
+    font-size: 25px;
+
+}
+
+.nc1 h3{
+    color: #fcb316;
+}
+
+.nc1 .pnc{
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 961px){
+    
+.nc {
+    margin: auto;
+    position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
+.nc1 {
+    
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+
+.nc2{
+    overflow: hidden;
+    width: 100%;
+    height: 470px;
+}
+
+.nc2 iframe{
+    width: 100%;
+}
+
+
+.nc1 .ncimg {
+    
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    object-fit: cover;
+}
+
+.nc1 h5 {
+    font-size: 16px;
+    color: #044383;
+}
+
+.nc1 h1 {
+    color: #fcb316;
+    font-size: 40px;
+    margin: 40px 0px;
+}
+
+.nc1 p {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px;
+}
+
+.nc1 div {
+    padding:0px 0px;
+    width: 85%;
+    margin: auto;
+}
+
+.nc1 button {
+    margin: 30px 0px;
+    width: 150px;
+    font-size: 25px;
+
+}
+
+.nc1 h3{
+    padding-top: 45px;
+}
+
+.nc1 .pnc{
+    font-size: 16px;
+}
+}
+
+
+@media screen and (max-width: 700px){
+
+
+.nc {
+    margin: auto;
+    position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
+.nc1 {
+    
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+
+.nc2{
+    overflow: hidden;
+    width: 100%;
+    height: 270px;
+}
+
+.nc2 iframe{
+    width: 100%;
+}
+
+
+.nc1 .ncimg {
+    
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    object-fit: cover;
+}
+
+.nc1 h5 {
+    font-size: 16px;
+    color: #044383;
+}
+
+.nc1 h1 {
+    color: #fcb316;
+    font-size: 40px;
+    margin: 40px 0px;
+}
+
+.nc1 p {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px;
+}
+
+.nc1 div {
+    padding:30px;
+    width: 100%;
+}
+
+.nc1 button {
+    margin: 30px 0px;
+    width: 150px;
+    font-size: 25px;
+
+}
+
+.nc1 h3{
+    color: #fcb316;
+}
+
+.nc1 .pnc{
+    font-size: 16px;
+}
+}
 
 
 /******************************************** INICIO LINK CONTACTO *****************************************************/
@@ -2326,7 +2774,7 @@ form.formContact input[type="button"]:hover {
 
 /*----------------Responsive--------------*/
 
-/*--------Responsive Portadas--------*/
+/*--------Responsive medidas--------*/
 @media screen and (max-width: 1800px){}
 @media screen and (max-width: 961px){}
 @media screen and (max-width: 700px){}
