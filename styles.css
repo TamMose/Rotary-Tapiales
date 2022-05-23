@@ -2132,6 +2132,13 @@ p {
     }
 }
 
+ul.a {
+    list-style-position: outside;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px;
+    }
+
 
 main .nc0{
     margin: auto; 
@@ -2273,16 +2280,14 @@ main .nc0{
 }
 
 .nc1 div {
-    padding: 60px 80px;
+    padding: 60px 130px 0px 130px;
     width: 100%;
     background-color: #337ab7;
 }
 
 .nc1 button {
-    margin: 40px 0px;
     width: 190px;
     font-size: 25px;
-
 }
 
 .nc1 h3{
@@ -2433,7 +2438,7 @@ main .nc0{
 }
 
 .nc1 div {
-    padding:30px;
+    padding:30px 40px;
     width: 100%;
 }
 
