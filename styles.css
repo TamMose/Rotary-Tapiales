@@ -298,7 +298,89 @@ footer li a:hover {
     font-weight: 400;
 }
 }
-@media screen and (max-width: 961px){}
+@media screen and (max-width: 961px){
+
+footer {
+    background: #044383;
+    width: 100%;
+    padding: 35px;
+    margin: 0rem 0 0 0;
+
+}
+
+
+.footerContainer1 {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.footerContainer1 .cantainerLista {
+    width: 65%;
+}
+
+.footerContainer1 .cantainerLogos {
+    width: 35%;
+}
+
+.footerContainer1 .cantainerLogos img {
+    padding-right: 0px;
+    padding-bottom: 25px;
+}
+
+.footerContainer1 .datos {
+    width: 30%;
+    color: #ffffff;
+}
+
+.footerContainer1 .datos p {
+    margin: 0;
+    font-size: 18px;
+    padding: 0px;
+}
+
+
+.footerContainer1 .redes {
+    width: 30%;
+}
+
+.footerContainer1 .botonesFooter {
+    padding-left: 15px;
+    width: 30%;
+}
+
+
+
+
+
+/*---------------estilos para lista del footer -----------*/
+
+footer ul {
+    width: 100%;
+    padding: 0%;
+
+}
+
+footer li {
+    border-bottom: 2px solid #ffffff;
+    list-style: none;
+}
+
+footer li a {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    cursor: pointer;
+    color: #fcb316;
+    font-weight: 400;
+}   
+}
 @media screen and (max-width: 700px){
     
 footer {
