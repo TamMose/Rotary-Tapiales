@@ -73,11 +73,11 @@ div.container {
     justify-content: space-around;
 }
 
-li:hover {
+.nav-item :hover {
     font-weight: bold;
 }
 
-li.active {
+.nav-item .active {
     font-weight: bold;
 }
 
@@ -213,12 +213,280 @@ footer li a:hover {
 }
 
 
+/*--------Responsive medidas--------*/
+@media screen and (max-width: 1800px){
+    
+footer {
+    background: #044383;
+    width: 100%;
+    padding: 5rem 10rem 5rem 10rem;
+    margin: 0rem 0 0 0;
+
+}
+
+
+.footerContainer1 {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.footerContainer1 .cantainerLista {
+    width: 50%;
+}
+
+.footerContainer1 .cantainerLogos {
+    width: 50%;
+}
+
+.footerContainer1 .cantainerLogos img {
+    padding-right: 50px;
+}
+
+.footerContainer1 .datos {
+    width: 50%;
+    color: #ffffff;
+}
+
+.footerContainer1 .datos p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+
+.footerContainer1 .redes {
+    width: 20%;
+}
+
+.footerContainer1 .botonesFooter {
+    padding-left: 105px;
+    width: 30%;
+}
+
+
+
+
+
+/*---------------estilos para lista del footer -----------*/
+
+footer ul {
+    width: 100%;
+    padding: 0%;
+
+}
+
+footer li {
+    border-bottom: 2px solid #ffffff;
+    list-style: none;
+}
+
+footer li a {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    cursor: pointer;
+    color: #fcb316;
+    font-weight: 400;
+}
+}
+@media screen and (max-width: 961px){
+
+footer {
+    background: #044383;
+    width: 100%;
+    padding: 35px;
+    margin: 0rem 0 0 0;
+
+}
+
+
+.footerContainer1 {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.footerContainer1 .cantainerLista {
+    width: 65%;
+}
+
+.footerContainer1 .cantainerLogos {
+    width: 35%;
+}
+
+.footerContainer1 .cantainerLogos img {
+    padding-right: 0px;
+    padding-bottom: 25px;
+}
+
+.footerContainer1 .datos {
+    width: 30%;
+    color: #ffffff;
+}
+
+.footerContainer1 .datos p {
+    margin: 0;
+    font-size: 18px;
+    padding: 0px;
+}
+
+
+.footerContainer1 .redes {
+    width: 30%;
+}
+
+.footerContainer1 .botonesFooter {
+    padding-left: 15px;
+    width: 30%;
+}
+
+
+
+
+
+/*---------------estilos para lista del footer -----------*/
+
+footer ul {
+    width: 100%;
+    padding: 0%;
+
+}
+
+footer li {
+    border-bottom: 2px solid #ffffff;
+    list-style: none;
+}
+
+footer li a {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    cursor: pointer;
+    color: #fcb316;
+    font-weight: 400;
+}   
+}
+@media screen and (max-width: 700px){
+    
+footer {
+    background: #044383;
+    width: 100%;
+    padding: 35px;
+    margin: 0rem 0 0 0;
+
+}
+
+
+.footerContainer1 {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    justify-content: space-around;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
+.footerContainer1 .cantainerLista {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footerContainer1 .cantainerLogos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerContainer1 .cantainerLogos img {
+    padding: 10px;
+    width: 100%;
+}
+
+.footerContainer1 .datos {
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.footerContainer1 .datos p {
+    margin: 0;
+    font-size: 1.1rem;
+    padding: 0px;
+}
+
+
+.footerContainer1 .redes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.footerContainer1 .botonesFooter {
+    padding-left: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+/*---------------estilos para lista del footer -----------*/
+
+footer ul {
+    width: 100%;
+    padding: 0%;
+
+}
+
+footer li {
+    border-bottom: 2px solid #ffffff;
+    list-style: none;
+}
+
+footer li a {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    cursor: pointer;
+    color: #fcb316;
+    font-weight: 400;
+}
+}
+
+
+
+
 /*---------------estilos para botones del footer -----------*/
 
 
 .botonFooter {
     background: #fcb316;
-    width: 140px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
     padding: 0.4rem;
     margin: 10px 0 0 10px;
     border-radius: 50px;
@@ -440,9 +708,11 @@ main {
 
 div.textoCarousel {
     position: absolute;
-    top: 8rem;
-    left: 90px;
 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
     width: 85%;
     height: auto;
 }
@@ -488,10 +758,13 @@ div.textoCarousel {
     div.textoCarousel {
         position: absolute;
         margin: 0px;
-        top: 60px;
-        left: 30px;
-        width: 85%;
-        height: auto;
+        
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 85%;
+    height: auto;
     }
 
     .textoCarousel h1 {
@@ -511,7 +784,7 @@ div.textoCarousel {
     }
 
     .textoCarousel button {
-        margin-top: 40px;
+        margin-top: 30px;
 
 
     }
@@ -712,6 +985,11 @@ div.textoCarousel {
         margin: 0px;
         padding: 0px 30px;
     }
+    .contenedor-hpc3 h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+    }
 
     .contenedor-hpc4 {
 
@@ -721,7 +999,7 @@ div.textoCarousel {
     }
 
     .card-text {
-        padding-right: 0px;
+        padding: 0px;
         margin: 2rem 0;
     }
 
@@ -769,6 +1047,7 @@ div.textoCarousel {
     .card-text {
         padding-right: 0px;
         margin: 2rem 0;
+        
     }
 
     .cardButton {
@@ -1122,14 +1401,15 @@ h5 {
 
         padding: 0;
         margin: auto;
-        height: 32rem;
+        /*height: 32rem;*/
+        height: auto;
 
 
     }
 
     .threeCardContainer3 {
         border-top: 5px solid #044383;
-        padding: 20px;
+        padding: 15px;
         margin: auto;
     }
 
@@ -1158,6 +1438,7 @@ h5 {
     font-weight: 300;
     font-size: 12px;
     color: #5c727d;
+    padding: 0px;
 }
 }
 
@@ -1243,7 +1524,12 @@ h5 {
 
 }
 
-
+img.portada  {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    text-align: center;
+}
 
 
 
@@ -1263,6 +1549,116 @@ h5 {
     text-align: center;
 
 }
+
+/*--------Responsive Portadas--------*/
+@media screen and (max-width: 1800px){
+.banner {
+
+        width: 100%;
+        height: 530px;
+        position: relative;
+        overflow: hidden;
+        margin: 0px;
+    }
+
+    img.portada  {
+        
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        text-align: center;
+    }
+    
+    .texto-sn {
+    
+        font-size: 75px;
+        color: #ffffff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    
+    }
+}
+@media screen and (max-width: 961px){
+    .banner {
+
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+
+
+}
+
+
+img.portada  {
+    
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    text-align: center;
+}
+
+    
+
+
+
+.texto-sn {
+
+    font-size: 55px;
+    color: #ffffff;
+    position: absolute;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+}
+@media screen and (max-width: 700px){
+    
+.banner {
+
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        margin: 0px;
+    
+    
+    }
+    
+    
+    img.portada  {
+        
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+        text-align: center;
+    }
+
+        
+    
+    
+    
+    .texto-sn {
+    
+        font-size: 40px;
+        color: #ffffff;
+        position: absolute;
+        width: 85%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    
+    }
+}
+
 
 /*video{
     
@@ -1315,6 +1711,7 @@ article div p {
     line-height: 26px;
 
 }
+/*--------Responsive Articles--------*/
 
 @media screen and (max-width: 1800px){
     article {
@@ -1464,7 +1861,7 @@ article div p {
 
 /*-----Container-amrillo Responsive-----*/
 
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1800px) {
     .container-amarillo {
         width: 100%;
         height: auto;
@@ -1497,7 +1894,7 @@ article div p {
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 700px) {
     .container-amarillo {
         width: 100%;
         height: auto;
@@ -1602,6 +1999,217 @@ iframe {
     height: 4px;
     width: 100px;
     background-color: #fcb316;
+}
+
+/*--- Responsive marcar---*/
+@media screen and (max-width: 1800px){
+    .marcarLD {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+    
+    
+    }
+    
+    .marcarLD1 {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        display: flex;
+        padding: 0;
+    }
+    
+    .marcarLD2 {
+        display: block;
+        margin: 80px 0px;
+        padding: 0px;
+        width: 100%;
+    
+    }
+    
+    .marcarLD2 h5 {
+        font-size: 14px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .marcarLD2 p {
+        padding: 25px 90px 0px 0px;
+        font-size: 20px;
+        margin: 0;
+        line-height: 26px;
+    
+    }
+    
+    .marcarLD2 iframe {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    iframe {
+        border-radius: 0px;
+        text-align: center;
+        margin: auto;
+        object-fit: cover;
+        top: 5px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .linea-left {
+        margin: 20px 0px;
+        text-align: left;
+        border-radius: 5px;
+        height: 4px;
+        width: 100px;
+        background-color: #fcb316;
+    }
+    
+}
+@media screen and (max-width: 961px){
+    .marcarLD {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+    
+    
+    }
+    
+    .marcarLD1 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .marcarLD2 {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    
+    }
+    
+    .marcarLD2 h5 {
+        font-size: 14px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .marcarLD2 p {
+        padding: 0px;
+        font-size: 20px;
+        margin: 0;
+        line-height: 26px;
+    
+    }
+    
+    .marcarLD2 iframe {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 450px;
+        padding-top: 60px;
+    }
+    
+    iframe {
+        border-radius: 0px;
+        text-align: center;
+        margin: auto;
+        object-fit: cover;
+        top: 5px;
+        left: 0;
+        
+    
+    }
+    
+    .linea-left {
+        margin: 20px 0px;
+        text-align: left;
+        border-radius: 5px;
+        height: 4px;
+        width: 100px;
+        background-color: #fcb316;
+    }
+}
+@media screen and (max-width: 700px){
+    .marcarLD {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    
+    .marcarLD1 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .marcarLD2 {
+        display: block;
+        margin: 0px 0px;
+        padding: 0px;
+        width: 100%;
+    
+    }
+    
+    .marcarLD2 h5 {
+        font-size: 14px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .marcarLD2 p {
+        padding: 0px;
+        font-size: 16px;
+        margin: 0;
+        line-height: 24px;
+    
+    }
+    
+    .marcarLD2 iframe {
+        position: relative;
+        overflow: hidden;
+        padding-top: 30px;
+        width: 100%;
+        height: 230px;
+    }
+    
+    iframe {
+        border-radius: 0px;
+        text-align: center;
+        margin: 0px ;
+        object-fit: cover;
+        
+    
+    }
+    
+    .linea-left {
+        margin: 20px 0px;
+        text-align: left;
+        border-radius: 5px;
+        height: 4px;
+        width: 100px;
+        background-color: #fcb316;
+    }
 }
 
 
@@ -1776,7 +2384,6 @@ div .row {
 
 
 
-
 /******************************************** FIN LINK PROYECTOS Y CAUSAS *****************************************************/
 
 
@@ -1805,6 +2412,49 @@ p {
 .texto-historia {
     padding: 0px; 
 }
+
+/*--------Responsive video--------*/
+@media screen and (max-width: 1800px){
+    .texto-historia div iframe{
+        padding: 0px;
+        height: 590px;
+        width: 100%;
+    }
+    .texto-historia {
+        padding: 0px; 
+    }
+}
+@media screen and (max-width: 961px){
+    .texto-historia div iframe{
+        
+        overflow: hidden;
+        width: 100%;
+        height: 460px;
+        padding-top: 60px;
+    }
+    .texto-historia {
+        padding: 0px; 
+    }
+}
+@media screen and (max-width: 700px){
+    .texto-historia div iframe{
+        padding: 0px;
+        overflow: hidden;
+        width: 100%;
+        height: 230px;
+    }
+    .texto-historia {
+        padding: 0px; 
+    }
+}
+
+ul.a {
+    list-style-position: outside;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px;
+    }
+    
 
 
 main .nc0{
@@ -1863,7 +2513,7 @@ main .nc0{
 
 .nc1 p {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .nc1 div {
@@ -1887,7 +2537,247 @@ main .nc0{
     font-size: 16px;
 }
 
+/*--------Responsive nc--------*/
+@media screen and (max-width: 1800px){
 
+
+
+.nc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #337ab7;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.nc1 {
+    
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+
+.nc2{
+    overflow: hidden;
+    width: 80%;
+    height: auto;
+}
+
+.nc2 ifreme{
+    width: 100%;
+}
+
+
+.nc1 .ncimg {
+    
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    object-fit: cover;
+}
+
+.nc1 h5 {
+    font-size: 16px;
+    color: #044383;
+}
+
+.nc1 h1 {
+    color: #fcb316;
+    font-size: 60px;
+    margin: 40px 0px;
+}
+
+.nc1 p {
+    color: #ffffff;
+    font-size: 26px;
+    padding: 0px;
+}
+
+.nc1 div {
+    padding: 60px 130px 0px 130px;
+    width: 100%;
+    background-color: #337ab7;
+}
+
+.nc1 button {
+    width: 190px;
+    font-size: 25px;
+}
+
+.nc1 h3{
+    color: #fcb316;
+}
+
+.nc1 .pnc{
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 961px){
+
+    
+.nc {
+    margin: auto;
+    position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
+.nc1 {
+    
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+
+.nc2{
+    overflow: hidden;
+    width: 100%;
+    height: 470px;
+}
+
+.nc2 iframe{
+    width: 100%;
+}
+
+
+.nc1 .ncimg {
+    
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    object-fit: cover;
+}
+
+.nc1 h5 {
+    padding-top: 40px;
+    font-size: 16px;
+    color: #044383;
+}
+
+.nc1 h1 {
+    color: #fcb316;
+    font-size: 60px;
+    margin: 40px 0px;
+}
+
+.nc1 p {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px;
+}
+
+.nc1 div {
+    padding:0px 0px;
+    width: 85%;
+    margin: auto;
+}
+
+.nc1 button {
+    margin: 40px 0px;
+    width: 150px;
+    font-size: 25px;
+
+}
+
+.nc1 h3{
+    padding-top: 45px;
+}
+
+.nc1 .pnc{
+    font-size: 16px;
+}
+}
+
+
+@media screen and (max-width: 700px){
+
+
+
+
+.nc {
+    margin: auto;
+    position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
+.nc1 {
+    
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+
+.nc2{
+    overflow: hidden;
+    width: 100%;
+    height: 270px;
+}
+
+.nc2 iframe{
+    width: 100%;
+}
+
+
+.nc1 .ncimg {
+    
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    object-fit: cover;
+}
+
+.nc1 h5 {
+    font-size: 16px;
+    color: #044383;
+}
+
+.nc1 h1 {
+    color: #fcb316;
+    font-size: 40px;
+    margin: 40px 0px;
+}
+
+.nc1 p {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px;
+}
+
+.nc1 div {
+    padding:30px 40px;
+    width: 100%;
+}
+
+.nc1 button {
+    margin: 30px 0px;
+    width: 150px;
+    font-size: 25px;
+
+}
+
+.nc1 h3{
+    color: #fcb316;
+}
+
+.nc1 .pnc{
+    font-size: 16px;
+}
+}
 
 
 /******************************************** INICIO LINK CONTACTO *****************************************************/
@@ -2314,3 +3204,7 @@ form.formContact input[type="button"]:hover {
 
 /*----------------Responsive--------------*/
 
+/*--------Responsive medidas--------*/
+@media screen and (max-width: 1800px){}
+@media screen and (max-width: 961px){}
+@media screen and (max-width: 700px){}
