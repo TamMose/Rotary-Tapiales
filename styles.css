@@ -76,11 +76,11 @@ div.container {
     justify-content: space-around;
 }
 
-li:hover {
+.nav-item :hover {
     font-weight: bold;
 }
 
-li.active {
+.nav-item .active {
     font-weight: bold;
 }
 
@@ -216,12 +216,196 @@ footer li a:hover {
 }
 
 
+/*--------Responsive medidas--------*/
+@media screen and (max-width: 1800px){
+    
+footer {
+    background: #044383;
+    width: 100%;
+    padding: 5rem 10rem 5rem 10rem;
+    margin: 0rem 0 0 0;
+
+}
+
+
+.footerContainer1 {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.footerContainer1 .cantainerLista {
+    width: 50%;
+}
+
+.footerContainer1 .cantainerLogos {
+    width: 50%;
+}
+
+.footerContainer1 .cantainerLogos img {
+    padding-right: 50px;
+}
+
+.footerContainer1 .datos {
+    width: 50%;
+    color: #ffffff;
+}
+
+.footerContainer1 .datos p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+
+.footerContainer1 .redes {
+    width: 20%;
+}
+
+.footerContainer1 .botonesFooter {
+    padding-left: 105px;
+    width: 30%;
+}
+
+
+
+
+
+/*---------------estilos para lista del footer -----------*/
+
+footer ul {
+    width: 100%;
+    padding: 0%;
+
+}
+
+footer li {
+    border-bottom: 2px solid #ffffff;
+    list-style: none;
+}
+
+footer li a {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    cursor: pointer;
+    color: #fcb316;
+    font-weight: 400;
+}
+}
+@media screen and (max-width: 961px){}
+@media screen and (max-width: 700px){
+    
+footer {
+    background: #044383;
+    width: 100%;
+    padding: 35px;
+    margin: 0rem 0 0 0;
+
+}
+
+
+.footerContainer1 {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    justify-content: space-around;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
+.footerContainer1 .cantainerLista {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footerContainer1 .cantainerLogos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerContainer1 .cantainerLogos img {
+    padding: 10px;
+    width: 100%;
+}
+
+.footerContainer1 .datos {
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.footerContainer1 .datos p {
+    margin: 0;
+    font-size: 1.1rem;
+    padding: 0px;
+}
+
+
+.footerContainer1 .redes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.footerContainer1 .botonesFooter {
+    padding-left: 0px;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+/*---------------estilos para lista del footer -----------*/
+
+footer ul {
+    width: 100%;
+    padding: 0%;
+
+}
+
+footer li {
+    border-bottom: 2px solid #ffffff;
+    list-style: none;
+}
+
+footer li a {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    cursor: pointer;
+    color: #fcb316;
+    font-weight: 400;
+}
+}
+
+
+
+
 /*---------------estilos para botones del footer -----------*/
 
 
 .botonFooter {
     background: #fcb316;
-    width: 140px;
+    width: 150px;
     padding: 0.4rem;
     margin: 10px 0 0 10px;
     border-radius: 50px;
@@ -2067,7 +2251,6 @@ div .row {
 
 
 
-
 /******************************************** FIN LINK PROYECTOS Y CAUSAS *****************************************************/
 
 
@@ -2138,6 +2321,7 @@ ul.a {
     font-size: 18px;
     padding: 0px;
     }
+    
 
 
 main .nc0{
@@ -2222,7 +2406,8 @@ main .nc0{
 
 /*--------Responsive nc--------*/
 @media screen and (max-width: 1800px){
-    
+
+
 
 .nc {
     width: 100%;
@@ -2299,6 +2484,7 @@ main .nc0{
 }
 }
 @media screen and (max-width: 961px){
+
     
 .nc {
     margin: auto;
@@ -2380,6 +2566,8 @@ main .nc0{
 
 
 @media screen and (max-width: 700px){
+
+
 
 
 .nc {
