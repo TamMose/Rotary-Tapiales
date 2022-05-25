@@ -90,8 +90,8 @@
                     </div>
 
                     <div class="marcarLD2 ">
-                        <iframe src="https://www.youtube.com/embed/oP9qamim2Sk"
-                            title="YouTube video player" frameborder="0"
+                        <iframe src="https://www.youtube.com/embed/oP9qamim2Sk" title="YouTube video player"
+                            frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
 
@@ -265,7 +265,7 @@
 
 
             </article>
-<!--
+            <!--
             <article>
                 <div class=" proyectoR">
 
@@ -329,13 +329,13 @@
 
                     <h3>Actualmente Rotary Tapiales está trabajando sobre proyectos de servicio relacionados a:</h3><br>
                     <ul class="a">
-                    <li >Donación de sangre para el Hospital Garrahan.</li>
+                        <li>Donación de sangre para el Hospital Garrahan.</li>
                         <li>Ayuda alimentaria a comedores de Tapiales y Viandas
-                        Solidarias.</li>
+                            Solidarias.</li>
                         <li>Padrinazgo en escuela de Santiago del Estero, Paraje
-                        La Manga.</li>
+                            La Manga.</li>
                         <li>Contribución a instituciones de Salud locales, con donaciones de nuevas tecnologías para
-                        el desarrollo de prevención de enfermedades.</li>
+                            el desarrollo de prevención de enfermedades.</li>
                         <li>Intercambio Internacional de jóvenes.</li>
                         <li>Apoyo a emprendedores de la comunidad.</li>
                         <li>Colaboración con instituciones de Tapiales que fomenten la cultura y educación
@@ -344,9 +344,9 @@
                         <li>Comité especial de Diversidad, Equidad e Inclusión.</li>
                         <li>Programas de cuidado del ambiente, Semana del Árbol, botellas de amor y reciclado.</li>
                         <li>Erradicación de la polio a nivel mundial- trabajamos en colaboración con la Fundación Bill
-                        y Melinda Gates, la Organización Mundial de la Salud y el UNICEF para
-                        erradicar este flagelo de una vez por todas.</li>
-                </ul>
+                            y Melinda Gates, la Organización Mundial de la Salud y el UNICEF para
+                            erradicar este flagelo de una vez por todas.</li>
+                    </ul>
 
                     <button class="btnS" type="button" onclick="location.href='../enlaces/contacto.html'">Unite</button>
                 </div>
@@ -379,47 +379,134 @@
             <div class="">
                 <div class="row">
                     <div class="col-sm caja">
-                        
-                        <img id="myImg" src="../image/ayuda a merenderos (1).jpeg" alt="...">
+
+                        <img id="myImg" src="../image/ayuda a merenderos (1).jpeg" alt="..."
+                            onclick="openModal();currentSlide(1)" class="hover-shadow">
 
                     </div>
 
                     <div class="col-sm caja">
-                        
-                        <img id="myImg" src="../image/Campaña Padrinazgo escuelas rurales (1).jpg" alt="...">
-                    
+
+                        <img id="myImg" src="../image/Campaña Padrinazgo escuelas rurales (1).jpg" alt="..."
+                            onclick="openModal();currentSlide(2)" class="hover-shadow">
+
                     </div>
 
                     <div class="col-sm caja">
-                        
-                        <img id="myImg" src="../image/donación de sangre.jpg" alt="...">
-                    
+
+                        <img id="myImg" src="../image/donación de sangre.jpg" alt="..."
+                            onclick="openModal();currentSlide(3)" class="hover-shadow">
+
                     </div>
 
                 </div>
                 <div class="row">
                     <div class="col-sm caja ">
-                        
-                        <img id="myImg" src="../image/mural por la paz.jpg"  alt="...">
-                    
-                    </div>
-                    <div class="col-sm caja">
-                        
-                        <img id="myImg" src="../image/POA_Banners_Digital_1200x900_ES21 (2).jpg" alt="...">
-        
+
+                        <img id="myImg" src="../image/mural por la paz.jpg" alt="..."
+                            onclick="openModal();currentSlide(4)" class="hover-shadow">
 
                     </div>
                     <div class="col-sm caja">
-                        <img id="myImg" src="../image/07332eba-a22a-43d2-9505-be2fb207c57d.jpg"  alt="...">
-    
+
+                        <img id="myImg" src="../image/POA_Banners_Digital_1200x900_ES21 (2).jpg" alt="..."
+                            onclick="openModal();currentSlide(5)" class="hover-shadow">
+
+
+                    </div>
+                    <div class="col-sm caja">
+                        <img id="myImg" src="../image/07332eba-a22a-43d2-9505-be2fb207c57d.jpg" alt="..."
+                            onclick="openModal();currentSlide(6)" class="hover-shadow">
+
 
                     </div>
 
 
                 </div>
             </div>
-        </article>
-    </main>
+
+     
+
+
+    
+
+        <!-- Images used to open the lightbox -->
+
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="../image/ayuda a merenderos (1).jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="../image/Campaña Padrinazgo escuelas rurales (1).jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="../image/donación de sangre.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="../image/mural por la paz.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 4</div>
+                    <img src="../image/POA_Banners_Digital_1200x900_ES21 (2).jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 4</div>
+                    <img src="../image/07332eba-a22a-43d2-9505-be2fb207c57d.jpg" style="width:100%">
+                </div>
+
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail image controls 
+      <div class="column">
+        <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+      </div>
+    </div>
+  </div>-->
+
+
+</article>
+</main>
 
 
 
