@@ -2503,7 +2503,71 @@ img.hover-shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*--------Responsive medidas--------*/
+@media screen and (max-width: 1800px) {
 
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        background-color: black;
+        
+    }
+
+    .mySlides {
+        display: none;
+        width: auto;
+        height: 750px;
+        padding: 0%;
+        overflow: hidden;
+    }
+    
+    .mySlides img{
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (max-width: 961px) {}
+
+@media screen and (max-width: 700px) {
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 250px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 300px;
+        overflow: auto;
+        background-color: black;
+        
+    }
+
+    .mySlides {
+        display: none;
+        width: auto;
+        height: 300px;
+        padding: 0%;
+        overflow: hidden;
+    }
+    
+    .mySlides img{
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+}
 
 
 
@@ -2922,79 +2986,6 @@ main .nc0 {
 
 /******************************************** INICIO LINK CONTACTO *****************************************************/
 
-/* .formContainer {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 5rem auto;
-    padding: 2rem;
-    border: solid #cfd4d6;
-    border-radius: 1rem;
-}
-.contactContainer {
-    width: 304px;
-    padding: 2rem;
-}
-.contactContainer h2 {
-    margin: 0 0 2rem 0;
-}
-.contactContainer p {
-    font-size: 1rem;
-    margin: auto;
-}
-.contactNetContainer {
-    margin: 1rem 0;
-}
-.formContainer form {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 2rem;
-    width: 45rem;
-    margin: auto;
-}
-.formName {
-    width: 20rem;
-    margin: auto;
-}
-.formPhone {
-    width: 20rem;
-    margin: auto;
-}
-.formEmail {
-    width: 40.3rem;
-    margin: 1rem auto;
-}
-:hover.formName,
-:hover.formEmail,
-:hover.formPhone {
-    background: #b5e1f3;
-}
-.message {
-    width: 40.3rem;
-    padding: 3rem;
-    margin: 1rem auto;
-}
-:hover.message {
-    background: #b5e1f3;
-}
-form .button {
-    height: 60px;
-    width: 176px;
-    left: 647px;
-    top: 1674px;
-    border-radius: 81px;
-    margin: auto;
-}
-form :hover.button {
-    transition: all 1s;
-    background: #b5e1f3;
-}
-.sectionMap {
-    width: 100%;
-}
-.mapsContainer {
-    width: 100%; 
-}*/
 
 .mapsContainer {
     display: flex;
