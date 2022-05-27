@@ -181,7 +181,7 @@ footer {
 }
 
 .footerContainer1 .botonesFooter {
-    padding-left: 105px;
+    padding-left: 100px;
     width: 30%;
 }
 
@@ -265,7 +265,7 @@ footer li a:hover {
     }
 
     .footerContainer1 .botonesFooter {
-        padding-left: 105px;
+        padding-left: 100px;
         width: 30%;
     }
 
@@ -2657,6 +2657,15 @@ ul.a {
     font-size: 18px;
     padding: 0px;
 }
+
+ul.b {
+    list-style-position: outside;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px;
+    list-style: none;
+}
+
 
 
 
