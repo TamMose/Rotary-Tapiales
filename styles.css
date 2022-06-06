@@ -799,6 +799,7 @@ main {
 }
 
 .portada img {
+    width: 100%;
     object-fit: cover;
     text-align: center;
     
@@ -869,6 +870,8 @@ main {
         width: 942px;
         height: 25rem;
     }
+
+
 
     .textoCarousel h1 {
 
@@ -1548,7 +1551,7 @@ h5 {
 
 /*----------THREECARD Responsive--------*/
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2800px) {
     .threeCard {
         width: 70%;
         margin: 5rem auto;
@@ -1601,7 +1604,7 @@ h5 {
     .threeCardContainer p {
         margin: 2rem 0;
         font-weight: 300;
-        font-size: 16px;
+        font-size: 14px;
         color: #5c727d;
     }
 }
@@ -1777,7 +1780,7 @@ img.portada {
 }
 
 /*--------Responsive Portadas--------*/
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2800px) {
     .banner {
 
         width: 100%;
@@ -1790,7 +1793,7 @@ img.portada {
     img.portada {
 
         width: 100%;
-        height: auto;
+        
         object-fit: cover;
         text-align: center;
     }
