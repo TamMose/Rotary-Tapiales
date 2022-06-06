@@ -10,60 +10,54 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-    <!--  FAVICON -->
-    <title>Home</title>
     <link rel="shortcut icon" href="./image/icons/favIconRotary.png" type="image/x-icon">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--  FAVICON -->
+    <title>Home</title>
 </head>
 
 <body>
-    <header>
-        <div class="divHeaderContainer">
-            <nav class="navbar navbar-expand">
-                <div class="container">
-                    <a class="logoRotary" href="./index.html"><img src="image/Rotary-T-Logo-.png" alt=""></a>
-                    <div class=" navbar">
-                        <ul class="navbar-nav ulHeader">
-                            <li class="active nav-item">
-                                <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./enlaces/sobreNosotros.html">Sobre Nosotros</a>
-                            </li>
-                            <li class=" nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                    aria-expanded="false">Proyectos y Causas</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="./enlaces/proyectoYCausas.html">Toma acción</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="./enlaces/nuestrasCausas.html">Nuestras
-                                            Causas</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./enlaces/contacto.html" tabindex="-1"
-                                    aria-disabled="true">Contacto</a>
-                            </li>
-                        </ul>
-                        <div class="buttonHeaderContainer">
-                            <button class="btnP " type="button">Donar</button>
-                            <button class="btnS" type="button"
-                                onclick="location.href='./enlaces/contacto.html'">Unite</button>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
+    <header class="header">
+        <nav class="menu">
+            <a href="./index.html" for="" class="logo">
+                <img  class="img"src="../image/Rotary-T-Logo-.png" alt="">
+                <h1 class="logo2">ROTARY</h1>
+            </a>
+            <ul class="menu_items">
+                <li class="active navItem"><a href="./index.html">Inicio</a></li>
+                <li class="navItem"><a href="/enlaces/sobreNosotros.html">Sobre Nosotros</a></li>
+                <li class="navItem"><a href="#">Proyecto y Causas <i class="fas fa-chevron-down"></i></a> 
 
+                    <ul class="submenu">
+                        <li class="menuItem"><a href="/enlaces/proyectoYCausas.html" class="menuLink">Toma acción</a></li>
+                        <li class="menuItem"><a href="/enlaces/nuestrasCausas.html" class="menuLink">Nuestras Causas</a></li>
+                    </ul>
+                </li>
+                <li class="navItem"><a href="/enlaces/contacto.html">Contacto</a></li>
+            </ul>
+            <div class="btnNav">
+                <button class="btnP " type="button">Donar</button>
+                <button class="btnS" type="button">Unite</button>
+            </div>
+            <span class="btn_menu">
+                <i class="fa fa-bars"></i>
+            </span>
+
+        </nav>
     </header>
-    <section class="  fluid-container sectionCarousel linea">
+
+
+
+    <section class="  fluid-container sectionCarousel linea containerGeneral">
 
         <img class="portada" src="./image/voluunter1.png" alt="">
 
@@ -81,10 +75,10 @@
     <main class="hpc">
 
 
-        <section class="contenedor-hpc">
+        <section class="contenedor-hpc"  >
 
-            <div class="contenedor-hpc2">
-                <div class="contenedor-hpc4">
+            <div class="contenedor-hpc2"data-aos="fade-right" data-aos-duration="1000">
+                <div class="contenedor-hpc4" >
                     <img src="./image/Tapiales (1).jpg" class="" alt="...">
                 </div>
                 <div class="contenedor-hpc3">
@@ -103,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="contenedor-hpc2">
+            <div class="contenedor-hpc2 "  data-aos="fade-left" data-aos-duration="1000">
                 <div class="contenedor-hpc3">
                     <h5> Proyectos y causas</h5>
                     <div class="card-linea"></div>
@@ -126,7 +120,7 @@
 
     <main>
 
-        <div class="container-amarillo">
+        <div class="container-amarillo"  data-aos="fade-up" data-aos-duration="1000" data-aos-duration="1000">
             <p>"En <b>Rotary Tapiales valoramos la diversidad y celebramos las contribuciones de personas de todos los
                     orígenes</b>, independientemente de su edad, etnia, raza, color, discapacidad, estilo de
                 aprendizaje, religión, fe, estatus socioeconómico, cultura, estado civil, idiomas hablados, sexo,
@@ -136,7 +130,7 @@
 
 
 
-        <div class="head-card  text-center">
+        <div class="head-card  text-center" data-aos="flip-right">
 
 
             <h1> Nuestras Causas </h1>
@@ -149,7 +143,7 @@
 
         <section class="threeCard ">
 
-            <div class="threeCardContainer">
+            <div class="threeCardContainer " data-aos="flip-up" data-aos-duration="1000">
                 <div class="threeCardContainer2">
                     <div>
                         <img src="image/involucrateCard.png" alt="">
@@ -169,7 +163,7 @@
                     </div>
                 </div>
             </div>
-            <div class="threeCardContainer">
+            <div class="threeCardContainer " data-aos="flip-up" data-aos-duration="2000">
                 <div class="threeCardContainer2">
                     <div>
                         <img src="image/lina-trochez-ktPKyUs3Qjs-unsplash.jpg" alt="">
@@ -188,7 +182,7 @@
                     </div>
                 </div>
             </div>
-            <div class="threeCardContainer">
+            <div class="threeCardContainer" data-aos="flip-up" data-aos-duration="3000">
                 <div class="threeCardContainer2">
                     <div>
                         <img src="image/polioplus1.png" alt="">
@@ -214,7 +208,8 @@
         </section>
     </main>
 
-    <footer>
+    <footer  data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
 
 
         <div class="footerContainer1">
@@ -270,7 +265,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js">
+    </script><script src="/js/jquery-3.6.0.js"></script>
+    <script src="./js/head.js" defer></script>
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

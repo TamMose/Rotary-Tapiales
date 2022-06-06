@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
-    <!--  FAVICON -->
-    <title>Nosotros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
     <link rel="shortcut icon" href="../image/icons/favIconRotary.png" type="image/x-icon">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Sobre Nosotros</title>
 </head>
-<body  class=" bodyIndex bodySobreNosotros">
-    <header> 
-        <div class="divHeaderContainer">
-            <nav class="navbar navbar-expand">
-                <div class="container">
-                    <a class="logoRotary" href="../index.html"><img src="../image/Rotary-T-Logo-.png" alt=""></a>
-                    <div class=" navbar" >
-                    <ul class="navbar-nav ulHeader">
-                        <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="active nav-item">
-                        <a class="nav-link" href="../enlaces/sobreNosotros.html">Sobre Nosotros</a>
-                        </li>
-                        <li class=" nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Proyectos y Causas</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="../enlaces/proyectoYCausas.html">Toma acción</a></li>
-                                <li><a class="dropdown-item" href="../enlaces/nuestrasCausas.html">Nuestras Causas</a></li>
-                            </ul>
-                        </li>
-                        <li class=" nav-item">
-                        <a class="nav-link" href="../enlaces/contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end buttonHeader">
-                        <button class="btnP " type="button">Donar</button>
-                        <button class="btnS" type="button">Unite</button>
-                        </div>
-                    </div>
-                </div>
-                </nav>
-        </div>
 
-        
+<body class=" bodyIndex bodySobreNosotros">
+
+    <header class="header">
+        <nav class="menu">
+            <a href="../index.html" for="" class="logo">
+                <img  class="img"src="../image/Rotary-T-Logo-.png" alt="">
+                <h1 class="logo2">ROTARY</h1>
+            </a>
+            <ul class="menu_items">
+                <li class="navItem"><a href="../index.html">Inicio</a></li>
+                <li class="navItem active"><a href="./sobreNosotros.html">Sobre Nosotros</a></li>
+                <li class="navItem"><a href="#">Proyecto y Causas <i class="fas fa-chevron-down"></i></a> 
+
+                    <ul class="submenu">
+                        <li class="menuItem"><a href="./proyectoYCausas.html" class="menuLink">Toma acción</a></li>
+                        <li class="menuItem"><a href="./nuestrasCausas.html" class="menuLink">Nuestras Causas</a></li>
+                    </ul>
+                </li>
+                <li class="navItem"><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <div class="btnNav">
+                <button class="btnP " type="button">Donar</button>
+                <button class="btnS" type="button">Unite</button>
+            </div>
+            <span class="btn_menu">
+                <i class="fa fa-bars"></i>
+            </span>
+
+        </nav>
     </header>
 
     
-    <section class="linea banner ">
+    <section class="linea banner containerGeneral ">
         <img class="imag-banner portada" src="../image/historia1.png"  alt="...">
             <h1 class="texto-sn">Somos<span class="amarillo"> Rotary Tapiales.</span> <br>
                 Somos gente de acción.</h1>
@@ -192,5 +196,16 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js">
+    </script><script src="/js/jquery-3.6.0.js"></script>
+    <script src="../js/head.js" defer></script>
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
 </body>
 </html>
