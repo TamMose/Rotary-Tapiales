@@ -25,10 +25,8 @@
 
 .containerGeneral{
     top: 100px;
-    z-index: 10;
     display: flex;
     justify-content: center;
-
 }
 
 ::selection {
@@ -139,7 +137,7 @@ body {
     cursor: pointer;
     display: none;
     border: 1px solid #e8ebee;
-    width: 10%;
+    width: 20%;
     padding: 12px;
     
 }
@@ -2016,6 +2014,7 @@ article div p {
         width: 100%;
         margin: 0px;
         padding: 30px;
+        top: 200px;
     }
 
     h2 {
@@ -2039,6 +2038,9 @@ article div p {
         line-height: 20px;
         color: #044383;
 
+    }
+    .articulo {
+        margin-top: 30px;
     }
 
 
@@ -2076,7 +2078,7 @@ article div p {
 /******************************************** FIN LINK SOBRE NOSOTROS *****************************************************/
 
 .container-amarillo {
-    position: relative;
+
     width: 100%;
     height: auto;
     padding: 8rem 5rem 8rem 5rem;
@@ -2144,6 +2146,9 @@ article div p {
         font-size: 15px;
         font-weight: 600;
         margin: 0px;
+    }
+    .containerGeneral{
+        top: 70px;
     }
 }
 
@@ -2851,12 +2856,13 @@ img.hover-shadow {
     width: 40px;
     padding-right: 5px;
 }
+.nuestrasCausas{
 
+    width: 100%;
+    height: 700px;
 
-p {
-
-    padding-bottom: 40px;
 }
+
 
 .texto-historia div iframe {
     padding: 0px;
@@ -3472,7 +3478,7 @@ form.formContact textarea {
     min-height: 100px;
 }
 
-form.formContact input[type="button"] {
+form.formContact input[type="button"], #btnSend {
     width: 180px;
     background: #4091EC;
     padding: 10px;
@@ -3500,7 +3506,6 @@ form.formContact input[type="button"]:hover {
     .formWrap{
         display:flex ;
         flex-direction: column;
-        border: 3px solid red;
         width: 90%;
     }
     .contactInfo{
